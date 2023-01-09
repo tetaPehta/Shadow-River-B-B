@@ -167,4 +167,20 @@
    margin-bottom: 50px;
   }
 
+  .right-about-heading {
+   width: 33%;
+   float: left;
+   line-height: 20px;
+   clear: both;
+   margin-bottom: 50px;
+  }
+
+  .right-about-heading p {
+   text-align: right;
+  }
+
+  .left-about-heading p {
+   text-align: left;
+  }
+
   
