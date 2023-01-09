@@ -110,14 +110,9 @@
   #testimonials {
    height: 600px;
    text-align: center;
-   font-size: 200%;
-   padding-bottom: 50px;
+   font-size: 100%;
    text-transform: uppercase;
-   animation-name: hero-zoom;
-    animation-duration: 5s ;
-    animation-fill-mode: forwards;
-
-  }
+}
 
   #left-about {
    padding: 30px;
@@ -135,3 +130,27 @@
    width: 33%;
    margin: 0 auto;
   }
+  
+
+  #testimonials {
+   height: 600px;
+  }
+
+  #left-about {
+   padding-top: 30px;
+   width: 33%;
+   float: left;
+  }
+
+  #right-about {
+   padding-top: 30px;
+   width: 33%;
+   float: right;
+  }
+
+  #center-about {
+   width: 33%;
+   margin: 0 auto;
+  }
+
+  
