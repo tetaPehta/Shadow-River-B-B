@@ -18,12 +18,20 @@
  }
  #logo {
    float: left;
-   font-size: 280%;
+   font-size: 300%;
+   margin-left: 70px;
+   text-transform: uppercase;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s ;
+    animation-fill-mode: forwards;
  }
  #menu {
-   font-size: 110%;
-   letter-spacing:  2px;
-}
+   font-size: 120%;
+   letter-spacing:  5px;
+   margin-right: 70px;
+   }
+   
 #menu, #logo {
    line-height: 75px;
 }
