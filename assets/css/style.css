@@ -24,8 +24,44 @@
    font-size: 110%;
    letter-spacing:  2px;
 }
+#menu, #logo {
+   line-height: 75px;
+}
 #menu li {
    float: right;
    list-style-type: none;
    margin-right: 10px;
+}
+#menu a {
+   text-decoration: none;
+   color: inherit;
+}
+#menu a:hover {
+   border-bottom: 1px solid #3a3a3a;
+}
+.active {
+   border-bottom: 1px solid #3a3a3a;
+}
+#hero-outer{
+   height: 600px;
+   width: 100%;
+   overflow: hidden;
+}
+#hero-image {
+   height: 600px;
+   width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+   from{
+      transform: scale(1);
+   }
+   to {
+      transform: scale(1.2);
+   }
 }
