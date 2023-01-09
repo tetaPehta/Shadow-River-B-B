@@ -109,9 +109,8 @@
 
   #testimonials {
    height: 600px;
-   text-align: center;
-   font-size: 100%;
    text-transform: uppercase;
+   
 }
 
   #left-about {
@@ -130,13 +129,8 @@
    width: 33%;
    margin: 0 auto;
   }
-  
 
-  #testimonials {
-   height: 600px;
-  }
-
-  #left-about {
+ #left-about {
    padding-top: 30px;
    width: 33%;
    float: left;
@@ -181,6 +175,29 @@
 
   .left-about-heading p {
    text-align: left;
+  }
+
+  #guests {
+   text-align: center;
+   margin: 30px;
+   font-size: 200%;
+  }
+
+  #circle-container {
+   width: 300px;
+   height: 300px;
+   padding: 30px;
+   border-style: solid;
+   border-color: bisque;
+   border-width: 1px;
+   border-radius: 50%;
+   margin: 0 auto;
+  }
+
+  #circle-cover-bg {
+   background: url("../images/shadow\ river\ farm\ trans\ star.png") no-repeat center center;
+   height: 100%;
+   border-radius: 50%;
   }
 
   
