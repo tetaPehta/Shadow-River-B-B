@@ -153,4 +153,18 @@
    margin: 0 auto;
   }
 
+  hr {
+   border-top: 1px solid #3a3a3a;
+   width: 100%;
+   margin: 5px 0;
+  }
+
+  .left-about-heading {
+   width: 33%;
+   float: right;
+   line-height: 20px;
+   clear: both;
+   margin-bottom: 50px;
+  }
+
   
