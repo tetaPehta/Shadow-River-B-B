@@ -31,7 +31,7 @@
    letter-spacing:  5px;
    margin-right: 70px;
    }
-   
+
 #menu, #logo {
    line-height: 75px;
 }
@@ -79,4 +79,29 @@
       transform: scale(1.1);
    }
 }
+
+/* Create three equal columns that floats next to each other */
+.column {
+   float: left;
+   width: 32.2%;
+   padding: 10px;
+   height: 300px; 
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ #wake {
+   text-align: center;
+   font-size: 300%;
+   padding-bottom: 50px;
+
+   animation-name: hero-zoom;
+    animation-duration: 5s ;
+    animation-fill-mode: forwards;
+ }
 
