@@ -85,7 +85,7 @@
    float: left;
    width: 32.2%;
    padding: 10px;
-   height: 300px; 
+   height: 500px; 
  }
  
  /* Clear floats after the columns */
@@ -105,3 +105,22 @@
     animation-fill-mode: forwards;
  }
 
+  /* testimonials */
+
+  #testimonials {
+   height: 600px;
+   text-align: center;
+   font-size: 200%;
+   padding-bottom: 50px;
+   text-transform: uppercase;
+   animation-name: hero-zoom;
+    animation-duration: 5s ;
+    animation-fill-mode: forwards;
+
+  }
+
+  #left-about {
+   padding: 30px;
+   width: 33%;
+   float: left;
+  }
