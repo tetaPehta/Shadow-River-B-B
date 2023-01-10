@@ -127,6 +127,57 @@
     animation-fill-mode: forwards;
  }
 
+   #pictures {
+      height: 300px;
+  }
+
+   #left-about {
+       padding-top: 20px;
+       width: 33%;
+       float: left;
+   }
+
+   #right-about {
+      padding-top: 20px;
+      width: 33%;
+      float: right;
+   }
+
+   #center-about {
+      width: 33%;
+      margin: 0 auto;
+   }
+
+   #circle-container1 {
+      width: 220px;
+      height: 220px;
+      padding-bottom: 10px;
+      padding-left: 100px;
+      border-radius: 50%;
+      
+   }
+
+   #circle-cover-bg1 {
+      background: url("../images/front\ of\ house.jpg") no-repeat center center;
+      height: 100%;
+      border-radius: 50%;
+      
+   }
+
+   #circle-cover-bg2 {
+      background: url("../images/pasta.jpg") no-repeat center center;
+      height: 100%;
+      border-radius: 50%;
+     
+   }
+
+   #circle-cover-bg3 {
+      background: url("../images/georgeandjack.jpg") no-repeat center center;
+      height: 100%;
+      border-radius: 50%;
+      margin: 0 auto;
+   }
+
   /* testimonials */
 
   #testimonials {
