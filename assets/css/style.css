@@ -307,5 +307,12 @@
 
   #photos > img {
    width: 100%;
+  }
+
+  /* media queries */
+
+    /* for larger and medium screens */
+  @media screen and (max-width: 1200px) {
+
    
   }
