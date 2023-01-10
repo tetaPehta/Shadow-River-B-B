@@ -21,6 +21,10 @@ Failed code:
 1. I tried to add padding in between .conteiner paragraphs. At the moment it does not show. Will try different approach.
 2. Media queries between 950px and 1200px do not apply correctly. Will try different aproach.
 
+   * RESULT: I have solved the braking point issue with conteiners by removing the padding between conteiners and not ionside the card like previously tried. This resulted in correct responsive media query.
+
+
+
 
 
 ------
@@ -29,4 +33,4 @@ Failed code:
 
 ---
 
-Happy coding!
+Thank You for your time!
