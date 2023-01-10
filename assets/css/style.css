@@ -83,11 +83,24 @@
 /* Three columns side by side */
 .column {
    float: left;
-   width: 33.3%;
+   width: 33%;
    margin-bottom: 16px;
    padding: 0 auto;
+   text-align: center;
+  }
+
+ .column h2 {
+   padding: 5px;
+   text-align: center;
  }
- 
+   
+   .title {
+      text-transform: uppercase;
+      text-size-adjust: 120%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+   }
  /* Display the columns below each other instead of side by side on small screens */
  @media screen and (max-width: 650px) {
    .column {
@@ -96,23 +109,7 @@
    }
  }
  
- /* Add some shadows to create a card effect */
- .card {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
- }
- 
- /* Some left and right padding inside the container */
- .container {
-   padding: 0 16px;
- }
-
- #container p {
-   padding: 10px 0 20px 0;
- }
-   
- 
- 
- /* Clear floats */
+    /* Clear floats */
  .container::after, .row::after {
    content: "";
    clear: both;
@@ -126,19 +123,19 @@
    #wake {
    text-align: center;
    font-size: 300%;
-   padding-bottom: 50px;
+   padding-top: 50px;
+   padding-bottom: 80px;
 
-   animation-name: hero-zoom;
-    animation-duration: 5s ;
-    animation-fill-mode: forwards;
+
  }
 
    #pictures {
       height: 300px;
-  }
-
+      
+    }
    #left-about {
        padding-top: 20px;
+       padding-left: 10px;
        width: 33%;
        float: left;
    }
@@ -163,10 +160,13 @@
       
    }
 
+   
+
    #circle-cover-bg1 {
       background: url("../images/front\ of\ house.jpg") no-repeat center center;
       height: 100%;
       border-radius: 50%;
+     
       
    }
 
@@ -182,103 +182,29 @@
       height: 100%;
       border-radius: 50%;
       margin: 0 auto;
+      
    }
 
   /* testimonials */
 
-  #testimonials {
-   height: 600px;
+  #guests {
    text-transform: uppercase;
+   padding-bottom: 50px;
+   }
    
-}
-
-  #left-about {
-   padding: 30px;
-   width: 33%;
-   float: left;
-  }
-
-  #right-about {
-   padding-top: 30px;
-   width: 33%;
-   float: right;
-  }
-
   #center-about {
    padding-top: 30px;
    width: 33%;
    margin: 0 auto;
   }
-
- #left-about {
-   padding-top: 30px;
-   width: 33%;
-   float: left;
-  }
-
-  #right-about {
-   padding-top: 30px;
-   width: 33%;
-   float: right;
-  }
-
-  #center-about {
-   width: 33%;
-   margin: 0 auto;
-  }
-
-  hr {
-   border-top: 1px solid #3a3a3a;
-   width: 100%;
-   margin: 5px 0;
-  }
-
-  .left-about-heading {
-   width: 33%;
-   float: right;
-   line-height: 20px;
-   clear: both;
-   margin-bottom: 50px;
-  }
-
-  .right-about-heading {
-   width: 33%;
-   float: left;
-   line-height: 20px;
-   clear: both;
-   margin-bottom: 50px;
-  }
-
-  .right-about-heading p {
-   text-align: right;
-  }
-
-  .left-about-heading p {
-   text-align: left;
-  }
-
+ 
   #guests {
    text-align: center;
    margin: 30px;
    font-size: 200%;
   }
 
-  #circle-container {
-   width: 300px;
-   height: 300px;
-   padding: 30px;
-   
-   border-width: 1px;
-   border-radius: 50%;
-   
-   margin: 0 auto;
-  }
-
-  #circle-cover-bg {
-   background: url("../images/shadow\ river\ farm\ trans\ star.png") no-repeat center center;
-   height: 100%;
-   border-radius: 50%;
-  }
+  
 
   /* footer */
 
@@ -304,56 +230,23 @@
 
   /* gallery */ 
 
-    .conteinergallery {
-      padding: 200px;
-    }
-
-    .slider-wrapper {
-      position: relative;
-      max-width: 48rem;
-      margin: 0 auto;
+   .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid: gap 20px;
+      align-items: stretch;
+      
    }
+
+   .grid img {
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px  rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+   }
+
+     /* book */
+
     
-     .slider {
-      display: flex;
-      aspect-ratio: 16 / 9;
-      scroll-snap-type: x mandatory;
-      scroll-behavior: smooth;
-      box-shadow: 0 1.5rem --0.75rem hsla(0, 0%, 0%, 0.25);
-      border-radius: 0.5rem;
-     }
-
-     .slider img {
-      flex: 1 0 100%;
-      scroll-snap-align: start;
-      object-fit: cover;
-     }
-
-     .slider-nav {
-      display: flex;
-      column-gap: 1rem;
-      position: relative;
-      bottom: 1.2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1;
-     }
-
-     .slider-nav {
-      width: 0.5rem;
-      height: 0.5rem;
-      border-radius: 50%;
-      background-color: #fff;
-      opacity: 0.75;
-      transition: opacity ease 250ms;
-     }
-
-     .slider-nav a hoover {
-      opacity: 1;
-     }
-
-
-
 
   /* media queries */
 
