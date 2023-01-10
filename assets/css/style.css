@@ -228,10 +228,11 @@
   /* gallery */ 
 
    .grid {
-      display: grid;
+      display: inline-grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       align-items: stretch;
-      padding: 200px ;
+      padding: 100px;
+      position: relative;
 
       
       
@@ -243,6 +244,7 @@
       max-width: 100%;
    }
 
+  
   
    
      /* book */
