@@ -80,22 +80,44 @@
    }
 }
 
-/* Create three equal columns that floats next to each other */
+/* Three columns side by side */
 .column {
    float: left;
-   width: 32.2%;
-   padding: 10px;
-   height: 500px; 
+   width: 32.4%;
+   margin-bottom: 16px;
+   padding: 0 8px;
  }
  
- /* Clear floats after the columns */
- .row:after {
-   content: "";
-   display: table;
-   clear: both;
+ /* Display the columns below each other instead of side by side on small screens */
+ @media screen and (max-width: 650px) {
+   .column {
+     width: 100%;
+     display: block;
+   }
  }
-
- #wake {
+ 
+ /* Add some shadows to create a card effect */
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ /* Some left and right padding inside the container */
+ .container {
+   padding: 0 16px;
+ }
+ 
+ /* Clear floats */
+ .container::after, .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ .title {
+   color: grey;
+ }
+ 
+   #wake {
    text-align: center;
    font-size: 300%;
    padding-bottom: 50px;
