@@ -16,7 +16,7 @@ All media used was filmed by me and Eva Veber, @Eving.Photography. More can be f
 
 ------
 
-
+Failed code: I tried to add padding in between .conteiner paragraphs. At the moment it does not show. Will try different approach.
 ------
 
 
