@@ -15,6 +15,9 @@ All images and videos are a realistic representation of what our guests can expe
 All media used was filmed by me and Eva Veber, @Eving.Photography. More can be found on www.eva.veber.com
 
 ------
+OFFER section
+
+I have found "Meet the tem" code on W£Schools. I have implemented a part of that code into my "OFFER" section.
 
 Failed code: 
 
@@ -24,7 +27,11 @@ Failed code:
    * RESULT: I have solved the braking point issue with conteiners by removing the padding between conteiners and not ionside the card like previously tried. This resulted in correct responsive media query.
 
 
+GALLERY section
+I did not like the look of the gallery we have learned to style in our module. I searched online for different options and style. Every option on W£Schools had Java added. I wanted to use HTML and CSS only. I found this tutorial on Youtube :https://www.youtube.com/watch?v=McPdzhLRzCg. I followed the instructions. I could understand how wrapping and sliders work. I have implemented the new knolege into the Gallery style.
 
+Failed code:
+The gallery looks ok, but the slides are not efective. I have to go back and find my error in the code.
 
 
 ------
