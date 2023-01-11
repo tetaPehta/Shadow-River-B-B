@@ -45,7 +45,7 @@
    color: inherit;
 }
 #menu a:hover {
-   border-bottom: 1px solid #3a3a3a;
+   border-bottom: 1px solid #454B1B;
 }
 .active {
    border-bottom: 1px solid #3a3a3a;
@@ -80,127 +80,22 @@
    }
 }
 
-/* Three columns side by side */
-.column {
-   float: left;
-   width: 33%;
-   margin-bottom: 16px;
-   padding: 0 auto;
-   text-align: center;
-  }
-
- .column h2 {
-   padding: 5px;
-   text-align: center;
- }
-   
-   .title {
-      text-transform: uppercase;
-      text-size-adjust: 120%;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      text-align: center;
-   }
- /* Display the columns below each other instead of side by side on small screens */
- @media screen and (max-width: 650px) {
-   .column {
-     width: 100%;
-     display: block;
-   }
- }
- 
-    /* Clear floats */
- .container::after, .row::after {
-   content: "";
-   clear: both;
-   display: table;
- }
- 
- .title {
-   color: grey;
- }
- 
    #wake {
    text-align: center;
    font-size: 300%;
    padding-top: 50px;
    padding-bottom: 80px;
-
-
- }
-
-   #pictures {
-      height: 300px;
-      
-    }
-   #left-about {
-       padding-top: 20px;
-       padding-left: 10px;
-       width: 33%;
-       float: left;
+   animation-name: hero-zoom;
+   animation-duration: 5s ;
+   animation-fill-mode: forwards;
    }
 
-   #right-about {
-      padding-top: 20px;
-      width: 33%;
-      float: right;
-   }
 
-   #center-about {
-      width: 33.%;
-      margin: 0 auto;
-   }
 
-   #circle-container1 {
-      width: 220px;
-      height: 220px;
-      padding-bottom: 10px;
-      padding-left: 100px;
-      border-radius: 50%;
-      
-    }
-    #circle-cover-bg1 {
-      background: url("../images/front\ of\ house.jpg") no-repeat center center;
-      height: 100%;
-      border-radius: 50%;
-     
-      
-   }
 
-   #circle-cover-bg2 {
-      background: url("../images/pasta.jpg") no-repeat center center;
-      height: 100%;
-      border-radius: 50%;
-     
-   }
 
-   #circle-cover-bg3 {
-      background: url("../images/georgeandjack.jpg") no-repeat center center;
-      height: 100%;
-      border-radius: 50%;
-      margin: 0 auto;
-      
-   }
 
-  /* testimonials */
-
-  #guests {
-   text-transform: uppercase;
-   padding-bottom: 50px;
-   }
-
-  #center-about {
-   padding-top: 30px;
-   width: 33%;
-   margin: 0 auto;
-  }
  
-  #guests {
-   text-align: center;
-   margin: 30px;
-   font-size: 200%;
-  }
-
   
 
   /* footer */
@@ -231,7 +126,7 @@
 
   .conteiner {
       padding-top: 5px;
-      padding-bottom: 100px;
+      padding-bottom: 20px;
       
      
       
@@ -290,8 +185,9 @@
 .takeone {
    text-align: center;
    font-size: 32px;
-   padding-top: 200px;
+   padding-top: 150px;
    padding-bottom: 10px;
+   
    
 }
 .takeone1 {
@@ -299,6 +195,7 @@
    font-size: 32px;
    padding-top: 80px;
    padding-bottom: 10px;
+  
 }
 .p1 {
    text-align: center;
@@ -322,6 +219,7 @@
       text-align: center;
 }
 
+
    #photolink {
     font-size: 100%;
     text-align: center;
@@ -343,7 +241,7 @@
 
      .form-section {
       clear: left;
-      background: url("https://scontent-dub4-1.xx.fbcdn.net/v/t39.30808-6/281727693_1000470950467994_8542712903762107693_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=d-f0mjRMuDYAX84ct2T&_nc_ht=scontent-dub4-1.xx&oh=00_AfCMTjb55b24P4ohqwvaq93nsHOzXm3WHMS1AxeMxmKuhA&oe=63C352F2");
+      background: url("https://scontent-dub4-1.xx.fbcdn.net/v/t39.30808-6/281727693_1000470950467994_8542712903762107693_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=d-f0mjRMuDYAX84ct2T&_nc_ht=scontent-dub4-1.xx&oh=00_AfCMTjb55b24P4ohqwvaq93nsHOzXm3WHMS1AxeMxmKuhA&oe=63C352F2") ;
       background-size: cover;
   
      background-position: center;
@@ -356,7 +254,7 @@
      max-width:400px;
      float: right;
      left: 10px;
-     padding: 10px;
+    padding: 10px;
       
     }
       .signup-form > h2 {
@@ -387,15 +285,14 @@
 
    /* for medium screens from 950px wide and down */
 
-   @media screen and (max-width: 950px)  {
+   @media screen and (max-width: 950px) {
 
-            #menuu {
+            #menu {
          clear: left;
          float: left;
          margin-left: 30px;
          margin-bottom: 20px;
          line-height: 25px;
-
             }
 
           #testimonials {
@@ -417,8 +314,8 @@
             text-align: center;
             padding: 0 20px;
           }
-
-   }
+         } 
+         
 
     /* for larger and medium screens */
 
@@ -458,5 +355,12 @@
             height: 150px;
             padding: 0;
         }
-    
-         }
+      }
+         /*  tryout */
+
+
+
+
+
+
+
