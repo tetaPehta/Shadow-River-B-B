@@ -207,7 +207,7 @@
 
   footer {
    height: 150px;
-  }
+ }
   .social-networks {
    text-align: center;
   }
@@ -221,7 +221,7 @@
    letter-spacing: 10px;
    margin: 1%;
    padding: 5%;
-   color: #3a3a3a;
+   color: #3a3a3a
 
   }
 
@@ -230,10 +230,14 @@
   
 
   .conteiner {
-      padding: 200px;
+      padding-top: 5px;
+      padding-bottom: 100px;
+      
+     
+      
 }
 
-.slider-wrapper {
+   .slider-wrapper {
    position: relative;
    max-width: 48rem;
   margin: 0 auto;
@@ -276,6 +280,60 @@
    opacity: 1;
 }
 
+.take {
+   text-align: center;
+   font-size: 120%;
+   padding-top: 30px;
+   padding-bottom: 10px;
+}
+
+.takeone {
+   text-align: center;
+   font-size: 120%;
+   padding-top: 200px;
+   padding-bottom: 10px;
+}
+.takeone1 {
+   text-align: center;
+   font-size: 120%;
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+.p1 {
+   text-align: center;
+   padding-bottom: 20px;
+   padding-left: 500px;
+   padding-right: 500px;
+   max-width: 1200px;
+}
+.p2 {
+   text-align: center;
+   text-size-adjust: 80%;
+   padding-left: 900px; 
+  text-shadow: #454B1B;
+  
+}
+.titleone {
+   text-transform: uppercase;
+      text-size-adjust: 120%;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      text-align: center;
+}
+
+   #photolink {
+    font-size: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 1%;
+    padding-top: 100px;
+    padding-left: 1450px;
+    color: #3a3a3a
+   }
+   .camera > li {
+      display: inline;
+     }
+    
   
   
    
