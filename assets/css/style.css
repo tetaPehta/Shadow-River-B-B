@@ -90,6 +90,61 @@
    animation-fill-mode: forwards;
    }
 
+   /* whoweare */
+
+  .wrapper {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-gap: 1em;
+   grid-auto-rows: minmax(100px, auto);
+  }
+  .wrapper > div {
+
+   background:#eee;
+   padding: 1em;
+   
+}
+.wrapper >div:nth-child(odd) {
+    background: #ddd;
+}
+
+
+
+
+   .title {
+      text-transform: uppercase;
+      padding: 3px 0 5px 0;
+   }
+   .test {
+      padding: 50px 0 50px 0;
+      text-align: center;
+   }
+
+   .wrapper1 {
+
+      display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-gap: 1em;
+   grid-auto-rows: minmax(100px, auto);
+      
+   }
+  
+
+   .wrapper1 > div {
+
+      background:#eee;
+      padding: 1em;
+      
+   }
+   .wrapper1 >div:nth-child(odd) {
+       background: #ddd;
+   }
+
+  
+
+ 
+
+
 
 
 
