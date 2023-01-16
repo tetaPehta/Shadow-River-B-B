@@ -90,68 +90,46 @@
    animation-fill-mode: forwards;
    }
 
-   /* whoweare */
-
-  .wrapper {
-   display: grid;
-   grid-template-columns: 2fr 1fr;
-   grid-gap: 1em;
-   grid-auto-rows: minmax(100px, auto);
-  }
-  .wrapper > div {
-
-   background:#eee;
-   padding: 1em;
-   
-}
-.wrapper >div:nth-child(odd) {
-    background: #ddd;
-}
-
-
-
-
-   .title {
-      text-transform: uppercase;
-      padding: 3px 0 5px 0;
-   }
-   .test {
-      padding: 50px 0 50px 0;
-      text-align: center;
-   }
-
-   .wrapper1 {
-
+   /* Grid */
+    .wrapper {
       display: grid;
-   grid-template-columns: 2fr 1fr;
-   grid-gap: 1em;
-   grid-auto-rows: minmax(100px, auto);
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-gap: 1em;
+      grid-auto-rows:minmax(100px, auto);
+      padding-bottom: 10rem;
       
-   }
-  
-
-   .wrapper1 > div {
-
-      background:#eee;
+    }
+    .nested {
+      display: grid;
+      grid-template-columns: 2;
       padding: 1em;
       
+     
+
+
+    }
+   .wrapper > div {
+      background-size: cover;
+      background-attachment: fixed;
+      padding-left: 2em;
+     
    }
-   .wrapper1 >div:nth-child(odd) {
-       background: #ddd;
-   }
-
-  
-
+  .wrapper h3 {
+    padding-bottom: 1em;
+  }
  
+   .nested img {
+   position: absolute;
+   display: block;
+   max-width: 100%;
+   height: auto;
+} 
 
 
 
 
+ /* tryout */
 
-
-
- 
-  
 
   /* footer */
 
@@ -296,11 +274,11 @@
 
      .form-section {
       clear: left;
-      background: url("https://scontent-dub4-1.xx.fbcdn.net/v/t39.30808-6/281727693_1000470950467994_8542712903762107693_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=d-f0mjRMuDYAX84ct2T&_nc_ht=scontent-dub4-1.xx&oh=00_AfCMTjb55b24P4ohqwvaq93nsHOzXm3WHMS1AxeMxmKuhA&oe=63C352F2") ;
+      background: url(../images/house\ for\ contact\ form.jpg) ;
       background-size: cover;
   
      background-position: center;
-     height: 900px;
+     height: 700px;
     }
        .signup-form {
      margin:150px 10% 0 0;
@@ -309,6 +287,7 @@
      max-width:400px;
      float: right;
      left: 10px;
+     
     padding: 10px;
       
     }
