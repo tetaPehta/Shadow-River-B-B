@@ -1,6 +1,6 @@
-![SR logo](https://www.shadowriver.ie/resources/shadow%20river%20farm%20trans%20star.png)
 
-Hello to the reader of my first README.md 
+
+
 
 I own a farm and B&B in Annascaul, Co.Kerry. I have build a website for the business 3 years ago with a website builder and hosting provider.
 
@@ -15,9 +15,8 @@ All images and videos are a realistic representation of what our guests can expe
 All media used was filmed by me and Eva Veber, @Eving.Photography. More can be found on www.eva.veber.com
 
 ------
-OFFER section
 
-I have found "Meet the tem" code on W£Schools. I have implemented a part of that code into my "OFFER" section.
+
 
 Failed code: 
 
@@ -28,10 +27,11 @@ Failed code:
 
 
 GALLERY section
-I did not like the look of the gallery we have learned to style in our module. I searched online for different options and style. Every option on W£Schools had Java added. I wanted to use HTML and CSS only. I found this tutorial on Youtube :https://www.youtube.com/watch?v=McPdzhLRzCg. I followed the instructions. I could understand how wrapping and sliders work. I have implemented the new knolege into the Gallery style.
+I did not like the look of the gallery we have learned to style in our module. I searched online for different options and style. Every option on W3Schools had Java added. I wanted to use HTML and CSS only. I found this tutorial on Youtube :https://www.youtube.com/watch?v=McPdzhLRzCg. I followed the instructions. I could understand how wrapping and sliders work. I have implemented the new knolege into the Gallery style.
 
 Failed code:
 The gallery looks ok, but the slides are not efective. I have to go back and find my error in the code.
+Fixed the error in CSS code .
 
 
 ------
@@ -40,4 +40,4 @@ The gallery looks ok, but the slides are not efective. I have to go back and fin
 
 ---
 
-Thank You for your time!
+
