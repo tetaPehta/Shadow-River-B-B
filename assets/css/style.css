@@ -90,24 +90,30 @@
    animation-fill-mode: forwards;
    }
 
+   .jpg {
+      padding: 3%;
+      text-align: center;
+    
+
+   }
+
+   #test {
+      text-align: center;
+      font-size: 200%;
+      padding-top:  50px;
+      padding-bottom: 10px;
+   }
+
    /* Grid */
     .wrapper {
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 1em;
       grid-auto-rows:minmax(100px, auto);
-      padding-bottom: 10rem;
+      padding: 100px;
       
     }
-    .nested {
-      display: grid;
-      grid-template-columns: 2;
-      padding: 1em;
-      
-     
-
-
-    }
+ 
    .wrapper > div {
       background-size: cover;
       background-attachment: fixed;
@@ -118,17 +124,46 @@
     padding-bottom: 1em;
   }
  
-   .nested img {
-   position: absolute;
-   display: block;
-   max-width: 100%;
-   height: auto;
-} 
+
+
+#offer {
+   background-image: url("../images/front\ of\ house\ 2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   overflow: hidden;
+}
+#offer div {
+color: #fafafa;
+background-color: rgba(58, 58, 58, .4);
+width: 33.3%;
+height: 400px;
+float: left;
+padding: 30px 0 0 10px;
+text-align: center;
+border: 2px solid white;
+box-sizing: border-box;
+
+}
+
+#offer h2 {
+color: #fafafa;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+#offer p {
+font-size: large;
+font-weight: 200;
+padding-bottom: 10px;
+}
 
 
 
 
- /* tryout */
+
+ 
 
 
   /* footer */
@@ -321,33 +356,8 @@
 
    @media screen and (max-width: 950px) {
 
-            #menu {
-         clear: left;
-         float: left;
-         margin-left: 30px;
-         margin-bottom: 20px;
-         line-height: 25px;
-            }
+          
 
-          #testimonials {
-            width: 90%;
-            height: 1200px;
-            margin: 0 auto;
-          }  
-
-          .left-about-heading, .right-about-heading {
-            width: inherit;
-          }
-
-          .left-about-heading h2, .right-about-heading h2 {
-            width: 100%;
-            text-align: center;
-          }
-
-          .left-about-heading p, .right-about-heading p {
-            text-align: center;
-            padding: 0 20px;
-          }
          } 
          
 
@@ -355,42 +365,9 @@
 
    @media screen and (max-width: 1200px) {
 
-           #testimonials {
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-           }
-
-           #guests {
-            padding: 30px 0;
-            margin: 0;
-           }
-
-           #left-about, #right-about {
-            width: 100%;
-            float: left;
-            padding: 0;
-           }
-
-           #center-about {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0;
-           }
-
-           hr {
-            display: none;
-           }
-
-           #offer > div {
-            width: 100%;
-            clear: both;
-            height: 150px;
-            padding: 0;
-        }
+          
       }
-         /*  tryout */
+        
 
 
 
