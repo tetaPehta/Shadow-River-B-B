@@ -97,12 +97,7 @@
 
    }
 
-   #test {
-      text-align: center;
-      font-size: 200%;
-      padding-top:  50px;
-      padding-bottom: 10px;
-   }
+  
 
    /* Grid */
     .wrapper {
@@ -119,6 +114,12 @@
       background-attachment: fixed;
       padding-left: 2em;
      
+   }
+   #test {
+      text-align: center;
+      font-size: 200%;
+      padding-top:  50px;
+      padding-bottom: 10px;
    }
   .wrapper h3 {
     padding-bottom: 1em;
@@ -169,7 +170,9 @@ padding-bottom: 10px;
   /* footer */
 
   footer {
-   height: 150px;
+   height: 200px;
+   width: 100%;
+   background: #3a3a3a;
  }
   .social-networks {
    text-align: center;
@@ -184,7 +187,7 @@ padding-bottom: 10px;
    letter-spacing: 10px;
    margin: 1%;
    padding: 5%;
-   color: #3a3a3a
+   counter-reset: #fff;
 
   }
 
