@@ -110,7 +110,7 @@
       padding-left: 2em;
      
    }
-   #test {
+   #testimonials {
       text-align: center;
       font-size: 250%;
       padding-top:  50px;
@@ -214,7 +214,7 @@ letter-spacing: 1px;
 
   .conteiner {
       padding-top: 5px;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
       
      
       
@@ -263,64 +263,47 @@ letter-spacing: 1px;
    opacity: 1;
 }
 
-.take {
-   text-align: center;
-   font-size: 120%;
-   padding-top: 30px;
-   padding-bottom: 10px;
-}
-
-.takeone {
-   text-align: center;
-   font-size: 32px;
-   padding-top: 150px;
-   padding-bottom: 10px;
-   
-   
-}
-.takeone1 {
-   text-align: center;
-   font-size: 32px;
-   padding-top: 80px;
-   padding-bottom: 10px;
-  
-}
-.p1 {
+.gallerydescription p {
    text-align: center;
    padding-bottom: 20px;
    padding-left: 500px;
    padding-right: 500px;
    max-width: 1200px;
 }
-.p2 {
-   text-align: center;
-   text-size-adjust: 80%;
-   padding-left: 900px; 
-  text-shadow: #454B1B;
+
   
+.camera p {
+   text-align: center;
+   padding: 50px 0 10px 0 ;
+      font-size: small;
+      letter-spacing: 1px;
 }
-.titleone {
+
+.gallerydescription h2{
    text-transform: uppercase;
-      text-size-adjust: 120%;
-      padding-top: 10px;
+  font-size: 220%;
+      padding-top: 200px;
       padding-bottom: 15px;
       text-align: center;
+      letter-spacing: 1px;
+      
+      
 }
+.gallerydescription p {
+   
+   letter-spacing: 1px;
+}
+
 
 
    #photolink {
-    font-size: 100%;
-    text-align: center;
-    letter-spacing: 10px;
-    margin: 1%;
-    padding-top: 100px;
-    padding-left: 1450px;
-    color: #3a3a3a
-   }
-   .camera > li {
-      display: inline;
-     }
+    font-size: 90%;
+     color: #3a3a3a;
+     padding-left: 1100px;
+     text-decoration-color: aqua;
     
+   }
+  
   
   
    
