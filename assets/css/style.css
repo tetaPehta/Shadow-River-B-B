@@ -82,7 +82,7 @@
 
    #wake {
    text-align: center;
-   font-size: 300%;
+   font-size: 250%;
    padding-top: 50px;
    padding-bottom: 80px;
    animation-name: hero-zoom;
@@ -90,12 +90,7 @@
    animation-fill-mode: forwards;
    }
 
-   .jpg {
-      padding: 3%;
-      text-align: center;
-    
-
-   }
+  
 
   
 
@@ -117,12 +112,23 @@
    }
    #test {
       text-align: center;
-      font-size: 200%;
+      font-size: 250%;
       padding-top:  50px;
       padding-bottom: 10px;
+     
    }
+ 
+   .wrapper p {
+      font-size: large;
+      font-weight: 200;
+      font-size: large;
+      padding-bottom: 10px;
+      letter-spacing: 1px;
+      }
   .wrapper h3 {
     padding-bottom: 1em;
+    font-size: larger;
+    letter-spacing: 1px;
   }
  
 
@@ -151,13 +157,18 @@ box-sizing: border-box;
 #offer h2 {
 color: #fafafa;
 padding-top: 100px;
-padding-bottom: 50px;
+padding-bottom: 20px;
+font-size: xx-large;
+
+
 }
 
 #offer p {
 font-size: large;
 font-weight: 200;
+font-size: large;
 padding-bottom: 10px;
+letter-spacing: 1px;
 }
 
 
@@ -170,12 +181,16 @@ padding-bottom: 10px;
   /* footer */
 
   footer {
-   height: 200px;
+   height: 250px;
    width: 100%;
    background: #3a3a3a;
+   
+   
  }
   .social-networks {
    text-align: center;
+   
+   
   }
 
   .social-networks > li {
@@ -183,14 +198,16 @@ padding-bottom: 10px;
   }
 
   .social-networks {
+  
    font-size: 200%;
-   letter-spacing: 10px;
    margin: 1%;
    padding: 5%;
-   counter-reset: #fff;
+   font: #fff;
 
   }
 
+
+ 
   /* gallery */ 
 
   
@@ -351,7 +368,19 @@ padding-bottom: 10px;
      margin-left: 25px;
      padding-left: 5px;
       }
- 
+
+      .mapouter {
+         position:relative;
+         text-align:center;
+         height:400px;
+         width:100%;
+         padding: 10px 0 10px 0;
+        
+         
+      }
+
+      
+      
 
   /* media queries */
 
