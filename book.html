@@ -32,36 +32,70 @@
 
 
     <section class="form-section">
-        <form method="POST" action="" class="signup-form">
-            <h2><i class="fa-solid fa-pen-nib"></i></i>Contact Us</h2>
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-            
-            <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" name="last_name" type="text" required>
-            
-            <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
-            
-            <label for="rooms">Accomodation</label>
-            <input type="radio" id="road" name="running_preference" value="rooms" required>
-            <label for="farm">Farm</label>
-            <input type="radio" id="trail" name="running_preference" value="farm" required>
-            <label for="cafe">Cafe</label>
-            <input type="radio" id="both" name="running_preference" value="cafe" required>
-            
-            <input class="join-button" type="submit" value="Submit!">
-        </form>
-
-
-    </section>
-
-    
         
-     <div class="mapouter">
-       <iframe src="https://maps.google.com/maps?q=Ardrinane,%20Annascaul,%20Co.Kerry&t=&z=15&ie=UTF8&iwloc=&output=embed" height=400px with= 100%></iframe>
-          </div>
+       
+        <div class="container-form">
+            <form action="confirmation.html" target="_blank" method="get">
+                <h2 class="heading heading-yellow">Reservation Online</h2>
+                <div class="form-field">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="Your phone number" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                <div class="form-field">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="form-field">
+                    <label for="offer">Enquiry for:</label>
+                    <select name="people" id="people">
+                        <option value="1">Accomodation</option>
+                        <option value="2">Cafe</option>
+                        <option value="3">Open Farm</option>
+                        
+                    </select>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+      </section>
+
+    <section >
+        <h3>Where to find Us:</h3>
+    <div class="where-we-are">
+        <div class="adress-conteiner">
+              <div>
+                 <h4>Adress:</h4>
+                  <p>Ardrinane, Annascaul, Tralee, Co.Kerry
+                  </p> 
+                  </div>
+                  <div> 
+                  <h4>EIRCODE:</h4>  
+                     <p> V92F898   </p>
+                </div>
+                <div>
+                    <h4>PHONE:</h4>
+                    <p>00353 87/674-5261</p>
+                </div>
+        </div>
+
+        <div class="map-conteiner"> 
+                <div class="mapouter">
+                    <iframe src="https://maps.google.com/maps?q=Ardrinane,%20Annascaul,%20Co.Kerry&t=&z=15&ie=UTF8&iwloc=&output=embed" height=300px with= 100%></iframe>
+                 </div>
+        </div>
     </div>
+    </section>
+        
+     
 
     
 
