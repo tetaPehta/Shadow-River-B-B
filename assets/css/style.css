@@ -374,10 +374,12 @@ padding-bottom: 10px;
   .adress-conteiner h4{
      letter-spacing: 1px;
      padding-bottom: 5px;
+     font-size: larger;
     
   }
   .adress-conteiner p {
         padding-bottom: 5px;
+        font-size: large;
   }
  
   
@@ -399,19 +401,12 @@ padding-bottom: 10px;
 
    /* for medium screens from 950px wide and down */
 
-   @media screen and (max-width: 950px) {
-
-          
-
-         } 
+ 
          
 
     /* for larger and medium screens */
 
-   @media screen and (max-width: 1200px) {
-
-          
-      }
+   
         
 
 
