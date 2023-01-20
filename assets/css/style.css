@@ -85,9 +85,7 @@
    font-size: 200%;
    padding-top: 50px;
    padding-bottom: 80px;
-   animation-name: hero-zoom;
-   animation-duration: 5s ;
-   animation-fill-mode: forwards;
+  
    }
 
   
@@ -351,28 +349,44 @@ padding-bottom: 10px;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1em;
       grid-auto-rows:minmax(100px, auto);
-      padding: 100px;
+      padding: 70px;
       
   }
+  #headingthreemap {
+   text-align: center;
+   font-size: 200%;
+   padding-top: 50px;
+   
   
+   }
+
     .adress-conteiner{
       float:left;
       justify-content: center;
       align-items: center;
-      padding: 20px 20px;
-      margin-left: 60px;
+      padding-left: 400px;
+      padding-top: 80px;
+
       display: inline;
       width: 500px;
   }
-  
-  .map-conteiner {
-      float: right;
-      padding-bottom: 10px;
-      display: inline;
-      width: 300px;
-      margin-right: 10px;
-  
+
+  .adress-conteiner h4{
+     letter-spacing: 1px;
+     padding-bottom: 5px;
+    
   }
+  .adress-conteiner p {
+        padding-bottom: 5px;
+  }
+ 
+  
+ 
+ 
+    
+ 
+  
+  
 
 
       
