@@ -207,7 +207,7 @@ padding-bottom: 10px;
   /* gallery */ 
 
   
-
+      /* slide */
   .conteiner {
       padding-top: 5px;
       padding-bottom: 10px;
@@ -237,15 +237,25 @@ padding-bottom: 10px;
 }
 
 
+ .gallerydescription h3{
+      font-family: Lora, sans-serif;
+      text-transform: uppercase;
+      font-size: 2.3em;
+      padding-top: 5em;
+      padding-bottom: 1em;
+      text-align: center;
+   
+      
+         
+   }
+
 
 .gallerydescription p {
    text-align: center;
-   font-size: 100%;
+   font-family: Lora, sans-serif;
+   font-size: 1.1em;
    font-weight: 300;
-   padding-bottom: 20px;
-   padding-left: 500px;
-   padding-right: 500px;
-   max-width: 1200px;
+   padding-bottom: 1rem;
   
 
 }
@@ -260,32 +270,13 @@ padding-bottom: 10px;
    
 }
 
-
-
-
-.gallerydescription h3{
-   text-transform: uppercase;
-    font-size: 200%;
-    padding-top: 200px;
-    padding-bottom: 15px;
-    text-align: center;
-
-   
-      
-}
-
-
-
-   #photolink {
+    #photolink {
     font-size: 100%;
      color: #3a3a3a;
      padding-left: 1100px;
      
     
    }
-  
- 
-  
    
      /* book */
 
