@@ -66,7 +66,7 @@
 #hero-image {
    height: 600px;
    width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
 
  /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -139,7 +139,7 @@
 
 
 #conteiner {
-   background-image: url("../images/front-of-house.jpg");
+   background-image: url("../images/front-of-house.webp");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -388,6 +388,55 @@ padding-bottom: 0.6em;
   
     /* media queries */
 
+  /* For small screens */
+
+    @media screen and (max-width: 480px) {
+      #photolink {
+          padding-left: 20em;
+      }
+      #photolinkeva {
+         padding-left: 20em;
+     }
+     #conteiner {
+      height: 60em;
+     }
+     #conteiner > div {
+   
+      width: 100%;
+      clear: both;
+      height: 34%;
+      padding: 0;
+   }
+   .wrapper {
+      grid-template-columns: 1fr;
+   }
+   .where-we-are {
+      grid-template-columns: 1fr;
+   }
+   .where-we-are > div {
+      width: 100%;
+      clear: both;
+      height: 34%;
+      padding: 0;
+   }
+
+   .form-section {
+      height: 100%;
+   }
+   .container-form {
+      width: 60em;
+      clear: both;
+      
+      padding: 0;
+   }
+     
+     
+  }
+   
+  
+   
+
+
    
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -398,6 +447,16 @@ padding-bottom: 0.6em;
        margin-left: 30px;
        margin-bottom: 20px;
        line-height: 25px;
+   }
+
+   .container-form {
+      width: 100%;
+      clear: both;
+      
+      padding: 0;
+   }
+   .form-section {
+      height: 60em;
    }
 }
 /* For larger screens from 1200px and down */
@@ -433,38 +492,6 @@ padding-bottom: 0.6em;
   
   
 }  
-
-@media screen and (max-width: 480px) {
-   #photolink {
-       padding-left: 20em;
-   }
-   #photolinkeva {
-      padding-left: 20em;
-  }
-  #conteiner {
-   height: 60em;
-  }
-  #conteiner > div {
-
-   width: 100%;
-   clear: both;
-   height: 34%;
-   padding: 0;
-}
-.wrapper {
-   grid-template-columns: 1fr;
-}
-.where-we-are {
-   grid-template-columns: 1fr;
-}
-.where-we-are > div {
-   width: 100%;
-   clear: both;
-   height: 34%;
-   padding: 0;
-}
-
-}
 
 
 
