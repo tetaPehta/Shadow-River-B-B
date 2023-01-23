@@ -386,51 +386,85 @@ padding-bottom: 0.6em;
   }
  
   
- 
- 
-    
- 
-  
-  
-
-
-      
-
-
-      
-      
-
-  /* media queries */
-
-   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
+    /* media queries */
 
    
-        
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+   #menu {
+       clear: left;
+       float: left;
+       margin-left: 30px;
+       margin-bottom: 20px;
+       line-height: 25px;
+   }
+}
+/* For larger screens from 1200px and down */
+ /* Offer  and testimonials section should allign vertically on screens smaller then 1200px */
+
+@media screen and (max-width: 1200px)  {
+   #conteiner {
+      height: 60em;
+   }
+   #conteiner > div {
+
+        width: 100%;
+        clear: both;
+        height: 34%;
+        padding: 0;
+   }
+   .wrapper > div {
+      width: 100%;
+      clear: both;
+      height: 100%;
+      padding: 0;
+   }
+
+.where-we-are {
+   grid-template-columns: 1fr;
+}
+.where-we-are > div {
+   width: 100%;
+   clear: both;
+   height: 34%;
+   padding: 0;
+}
+  
+  
+}  
+
+@media screen and (max-width: 480px) {
+   #photolink {
+       padding-left: 20em;
+   }
+   #photolinkeva {
+      padding-left: 20em;
+  }
+  #conteiner {
+   height: 60em;
+  }
+  #conteiner > div {
+
+   width: 100%;
+   clear: both;
+   height: 34%;
+   padding: 0;
+}
+.wrapper {
+   grid-template-columns: 1fr;
+}
+.where-we-are {
+   grid-template-columns: 1fr;
+}
+.where-we-are > div {
+   width: 100%;
+   clear: both;
+   height: 34%;
+   padding: 0;
+}
+
+}
 
 
 
