@@ -420,17 +420,17 @@ padding-bottom: 0.6em;
       padding: 0;
    }
 
+   .form-section {
+      float: left;
+   }
   
-  
-     
+   .map-conteiner {
+      float: left;
+   }
      
   }
 
-   /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
-}
+ 
 
    
 /* For medium screen sizes from 950px wide and down */
@@ -441,17 +441,18 @@ padding-bottom: 0.6em;
        float: left;
        margin-left: 30px;
        margin-bottom: 20px;
-       line-height: 25px;
+       line-height: 35px;
    }
-
-   
+   .form-section {
+      float: left;
+   }
+   .map-conteiner {
+      float: left;
+   }
   
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
 
-}
 /* For larger screens from 1200px and down */
  /* Offer  and testimonials section should allign vertically on screens smaller then 1200px */
 
