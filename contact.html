@@ -7,7 +7,7 @@
         <meta name="description" content="Shadow River B&B for walkers, Annascaul, Co.Kerry">
         <meta name="keywords" content="Dingle peninsula accomodation, farmstay Annascaul, Farm B&B Dingle peninsula">
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>Shadow River</title>
+        <title>Shadow River - Contact</title>
     </head>
     <body>
         <header>
@@ -17,7 +17,7 @@
             <nav>
                 <ul id="menu">
                     <li>
-                        <a href="book.html">Book your holiday!</a>
+                        <a href="contact.html">Book your holiday!</a>
                     </li>
                     <li>
                         <a href="gallery.html">Gallery</a>
@@ -30,8 +30,8 @@
         </header>
         <section class="form-section">
             <div class="container-form">
-                <form action="confirmation.html" target="_blank" method="get">
-                    <h2 class="heading heading-yellow">Reservation Online</h2>
+                <form action="https://formdump.codeinstitute.net" target="_blank" method="POST">
+                    <h2 class="heading ">Enquiry for:</h2>
                     <div class="form-field">
                         <label for="fullname">Full Name:</label>
                         <input type="text" id="fullname" placeholder="Full Name" required>
@@ -45,15 +45,11 @@
                         <input type="email" id="email" placeholder="Your email" required>
                     </div>
                     <div class="form-field">
-                        <label for="date">Date:</label>
-                        <input type="date" id="date">
-                    </div>
-                    <div class="form-field">
                         <label id="offer">Enquiry for:</label>
-                        <select name="people" id="people">
-                            <option value="1">Accomodation</option>
-                            <option value="2">Cafe</option>
-                            <option value="3">Open Farm</option>
+                        <select name="farm-offer" id="sector">
+                            <option value="accomodation">Accomodation</option>
+                            <option value="cafe">Cafe</option>
+                            <option value="open-farm">Open Farm</option>
                         </select>
                     </div>
                     <button class="btn">Submit</button>
