@@ -71,29 +71,75 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
     - Font Awesome was used on landing page on the website to add icons for aesthetic and UX purposes.
 
-   
+## Testing
+
+    - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    
+! [W3 Markup Validator](https://validator.w3.org/) - ! [My-results](./documentation/html-markup-result.png)
+! [W3-CSS-Validator](https://validator.w3.org/#validate_by_input) - ! [My-results](./documentation/css-validator-result.png)
+
+## Furder Testing
+
+   - The website was tested on Google Crome and Mozzila browser.
+   - The website was viewd on wariety of devices.
+   - lighthouse was used for page performance.
+   - Desktop:
+
+   ! [Lighthouse-report-for-desktop-Home](./documentation/lighthouse1.png)
+
+   ! [Lighthouse-report-for-desktop-Gallery](./documentation/lighthouse2.png)
+
+   ! [Lighthouse-report-for-desktop-Book](./documentation/lighthouse3.png)
+    
+   - Mobile:
+
+   ! [Lighthouse-report-for-mobile-Home](./documentation/lighthouse-mobile-home.png)
+
+   ! [Lighthouse-report-for-mobile-Book](./documentation/lighthouse-%20mobile-after-1st-fix-media-queries..png)
 
 
+### Failed code: 
 
+1. -  Media queries between 950px and 1200px do not apply correctly.
 
-------
+   * RESULT OF FIXED CODE: Error solved by removing the padding between conteiners and not inside the card like previously tried. This resulted in correct responsive media query.
 
+2. - Gallery Images not showing in Mozzila browser.
 
+  * RESULT OF FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
 
-Failed code: 
+3. Low Lighthouse performance for mobile.
 
-1. I tried to add padding in between .conteiner paragraphs. At the moment it does not show. Will try different approach.
-2. Media queries between 950px and 1200px do not apply correctly. Will try different aproach.
+  * - RESULT OF FIXED CODE: Compress all Images with Tiny Ping.com. Lighthouse score improved from 75 to 89 on Performance.
+  
 
-   * RESULT: I have solved the braking point issue with conteiners by removing the padding between conteiners and not ionside the card like previously tried. This resulted in correct responsive media query.
+## Credits 
 
+### Code 
 
-GALLERY section
-I did not like the look of the gallery we have learned to style in our module. I searched online for different options and style. Every option on W3Schools had Java added. I wanted to use HTML and CSS only. I found this tutorial on Youtube :https://www.youtube.com/watch?v=McPdzhLRzCg. I followed the instructions. I could understand how wrapping and sliders work. I have implemented the new knolege into the Gallery style.
+ - All content written by developer.
 
-Failed code:
-The gallery looks ok, but the slides are not efective. I have to go back and find my error in the code.
-Fixed the error in CSS code .
+ - Sample README.md from Code Institute was used as template for this document.
+
+ - Gallery section was build following the tutorial: https://www.youtube.com/watch?v=McPdzhLRzCg
+
+### Media
+
+- Images used on Home and Book page were created by Eva Veber for developer.
+- Images for -WINDOW INTO DINGLE PENINSULA- were created vy Florian Walsh.
+- Images for -TAKE YOUR MEMORIES HOME- were created by Eva veber.
+
+### External Links#
+
+- Social media icons link to working Social media accounts of Shadow River Farm
+- Links to external websites in Gallery link to Photographers personal websites.
+
+### Aknowlegments 
+
+-   My Mentor Brian Macharia for continuous help and insightfull feedback of my work on mentor sessions.
+
+-   Tutors at tutor support at Code Institute for their support.
+
 
 
 ------
