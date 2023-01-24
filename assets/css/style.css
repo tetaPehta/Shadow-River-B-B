@@ -1,502 +1,512 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
- * {
-   margin: 0;
-   padding: 0;
-   border:  none;
- }
-
- body {
-    font-family:Lora, sans-serif;
-    font-weight: 400;
-    color: #3a3a3a;
- }
- h1, h2, h3 {
-    font-family:Lora, sans-serif;
-    font-weight: 400;
-    color: #3a3a3a;
- }
-  p {
-      font-family: Lora, sans-serif;  }
- #logo {
-   float: left;
-   font-size: 4rem;
-   margin-left: 1em;
-   text-transform: uppercase;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s ;
-    animation-fill-mode: forwards;
- }
- #menu {
-   font-size: 1.5rem;
-   letter-spacing:  0.2em;
-   margin-right: 2em;
-   }
-
-#menu, #logo {
-   line-height: 75px;
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
 }
+
+body {
+	font-family: Lora, sans-serif;
+	font-weight: 400;
+	color: #3a3a3a;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Lora, sans-serif;
+	font-weight: 400;
+	color: #3a3a3a;
+}
+
+p {
+	font-family: Lora, sans-serif;
+}
+
+#logo {
+	float: left;
+	font-size: 4rem;
+	margin-left: 1em;
+	text-transform: uppercase;
+
+	animation-name: hero-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+#menu {
+	font-size: 1.5rem;
+	letter-spacing: 0.2em;
+	margin-right: 2em;
+}
+
+#menu,
+#logo {
+	line-height: 75px;
+}
+
 #menu li {
-   float: right;
-   list-style-type: none;
-   margin-right: 10px;
+	float: right;
+	list-style-type: none;
+	margin-right: 10px;
 }
+
 #menu a {
-   text-decoration: none;
-   color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
+
 #menu a:hover {
-   border-bottom: 1px solid #454B1B;
+	border-bottom: 1px solid #454B1B;
 }
+
 .active {
-   border-bottom: 1px solid #3a3a3a;
+	border-bottom: 1px solid #3a3a3a;
 }
 
-#hero-outer{
-   height: 600px;
-   width: 100%;
-   overflow: hidden;
+#hero-outer {
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
 }
 
-#cover-text, #cover-text h2 {
-   color: #fff;
-   }
+#cover-text,
+#cover-text h2 {
+	color: #fff;
+}
 
 #hero-image {
-   height: 600px;
-   width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center;
+	height: 600px;
+	width: 100%;
+	background: url("../images/hero-image.webp") no-repeat center center;
 
- /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s ;
-    animation-fill-mode: forwards;
+	/* animates zoom effect on loading page */
+	animation-name: hero-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
 }
 
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-   from{
-      transform: scale(1);
-   }
-   to {
-      transform: scale(1.1);
-   }
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(1.1);
+	}
 }
 
-   #headingthree {
-   text-align: center;
-   font-size: 2.2rem;
-   padding-top: 2em;
-   padding-bottom: 2em;
-  
-   }
+#headingthree {
+	text-align: center;
+	font-size: 2.2rem;
+	padding-top: 2em;
+	padding-bottom: 2em;
 
-  
-
-  
-
-   /* Grid */
-    .wrapper {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 1em;
-      grid-auto-rows:minmax(100px, auto);
-      padding: 100px;
-      
-    }
- 
-   .wrapper > div {
-      background-size: cover;
-      background-attachment: fixed;
-      padding-left: 2em;
-     
-   }
-   .h3wrapper{
-      text-align: center;
-      font-size: 2rem;
-      padding-top:  50px;
-      padding-bottom: 0.6em;
-     
-   }
-
- 
-   .testimonials p {
-      font-size: 1.1rem;
-      font-weight: 300;
-      padding-bottom: 0.6em;
-   
-      }
-
-      .testimonials h4 {
-         font-size: 1.3rem;
-         letter-spacing: 1px;
-         padding-bottom: 0.6em;
-      }
-      
- 
-
-
-#conteiner {
-   background-image: url("../images/front-of-house.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   width: 100%;
-   overflow: hidden;
-   font-family: Lora, sans-serif;
-   height: 25em;
 }
+
+
+/* Grid */
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+	grid-auto-rows: minmax(100px, auto);
+	padding: 100px;
+
+}
+
+.wrapper>div {
+	background-size: cover;
+	background-attachment: fixed;
+	padding-left: 2em;
+
+}
+
+.h3wrapper {
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 50px;
+	padding-bottom: 0.6em;
+
+}
+
+
+.testimonials p {
+	font-size: 1.1rem;
+	font-weight: 300;
+	padding-bottom: 0.6em;
+
+}
+
+.testimonials h4 {
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	padding-bottom: 0.6em;
+}
+
+
+#container {
+	background-image: url("../images/front-of-house.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+	font-family: Lora, sans-serif;
+	height: 25em;
+}
+
 .shadowriveroffer {
-color: #fafafa;
-background-color: rgba(58, 58, 58, .5);
-width:33.3%;
-height: 60em;
-float: left;
-padding: 1.8em 0 0 0.6em;
-text-align: center;
-border: 2px solid white;
-box-sizing: border-box;
+	color: #fafafa;
+	background-color: rgba(58, 58, 58, .5);
+	width: 33.3%;
+	height: 60em;
+	float: left;
+	padding: 1.8em 0 0 0.6em;
+	text-align: center;
+	border: 2px solid white;
+	box-sizing: border-box;
 
 }
 
 .shadowriveroffer h4 {
-color: #fafafa;
-padding-top: 3em;
-padding-bottom: 0.5em;
-font-size: xx-large;
+	color: #fafafa;
+	padding-top: 3em;
+	padding-bottom: 0.5em;
+	font-size: xx-large;
 
 
 }
 
 .shadowriveroffer p {
-font-size: 1.3rem;
-font-weight: 400;
-padding-bottom: 0.6em;
+	font-size: 1.3rem;
+	font-weight: 400;
+	padding-bottom: 0.6em;
 
 }
 
 
+/* footer */
 
-
-
- 
-
-
-  /* footer */
-
-  footer  {
-   height: 10rem;
-   background-color: rgba(58, 58, 58);
- }
- 
- .social-networks  {
-   display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-   list-style-type: none;
- }
- 
- .social-networks i  {
-   padding-top: 3em;
-   font-size: 2rem;
-   color: rgba(247, 245, 243, 0.97);
- }
- 
-
- 
-  /* gallery */ 
-
-  
-      /* slide */
-  .conteiner {
-      padding-top: 0.3em;
-      padding-bottom: 0.6em;
-      
-     
-      
+footer {
+	height: 10rem;
+	background-color: rgba(58, 58, 58);
 }
 
-   .slider-wrapper {
-   position: relative;
-   max-width: 48rem;
-  margin: 0 auto;
+.social-networks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
 }
+
+.social-networks i {
+	padding-top: 3em;
+	font-size: 2rem;
+	color: rgba(247, 245, 243, 0.97);
+}
+
+
+/* gallery */
+
+
+/* slide */
+.container {
+	padding-top: 0.3em;
+	padding-bottom: 0.6em;
+
+
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
 .slider {
-   display: flex;
-   aspect-ratio: 16 / 9;
-   overflow-x: auto;
-   scroll-snap-type: x mandatory;
-   scroll-behavior: smooth;
-   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-   border-radius: 0.5rem;
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
 }
+
 .slider img {
-   flex: 1 0 100%;
-   scroll-snap-align: start;
-   object-fit: cover;
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
 }
 
 
- .gallerydescription h3{
-      font-family: Lora, sans-serif;
-      text-transform: uppercase;
-      font-size: 2.3em;
-      padding-top: 5em;
-      padding-bottom: 1em;
-      text-align: center;
-   
-      
-         
-   }
+.gallerydescription h3 {
+	font-family: Lora, sans-serif;
+	text-transform: uppercase;
+	font-size: 2.3em;
+	padding-top: 5em;
+	padding-bottom: 1em;
+	text-align: center;
+
+
+}
 
 
 .gallerydescription p {
-   text-align: center;
-   font-family: Lora, sans-serif;
-   font-size: 1.1em;
-   font-weight: 300;
-   padding-bottom: 0.5em;
-  
+	text-align: center;
+	font-family: Lora, sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	padding-bottom: 0.5em;
+
 
 }
 
-  
+
 .camera p {
-   text-align: center;
-   font-size:1em;
-   font-weight: 100;
-   padding: 3.15em 0 0.6em 0 ;
-   font-family: lora, sans-serif;
-   
+	text-align: center;
+	font-size: 1em;
+	font-weight: 100;
+	padding: 3.15em 0 0.6em 0;
+	font-family: lora, sans-serif;
+
 }
 
-    #photolink {
-      font-size: 1em;
-      color: #3a3a3a;
-      padding-left: 70em;
-      padding-bottom: 2em;
-     
-    
-   }
-  
-   #photolinkeva {
-      font-size: 1em;
-      color: #3a3a3a;
-      padding-left: 70em;
-    
-   }
-     /* book */
+#photo-link {
+	font-size: 1em;
+	color: #3a3a3a;
+	padding-left: 70em;
+	padding-bottom: 2em;
 
 
-     .form-section {
-      clear: left;
-      background-image: url("..//images/house-for-contact-form.jpg") ;
-      background-size: cover;
-  
-     background-position: center;
-     height: 700px;
-    }
-     
+}
 
-    .container-form {
-      margin:90px 50px 0 0 ; 
+#photo-link-eva {
+	font-size: 1em;
+	color: #3a3a3a;
+	padding-left: 70em;
 
-     color:#fff; 
+}
 
-     background-color:#3a3a3a; 
-
-     height: 400px;
-     width: 500px;
-
-    float: right;
-     padding: 20px;
-    }
-
-    form {
-      display: grid;
-      row-gap: 20px;
-  }
-  
-  .form-field {
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  input, select {
-      padding: 10px 15px;
-  }
-  
-  .btn {
-      background-color: rgba(12, 71, 102);
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      font-size: 1.2rem;
-      border-radius: 100px;
-      box-shadow: 8px 10px 12px rgba(0, 0, 0, 0.1);
-      cursor: pointer;
-      transition: all .3s;
-  }
-  
-  .btn:hover {
-      transform: scale(1.03);
-      box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
-  }
-
-     /* Where we are */
-
-     .where-we-are{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1em;
-      grid-auto-rows:minmax(100px, auto);
-      padding: 70px;
-      
-  }
-  #headingthreemap {
-   text-align: center;
-   font-size: 2.5rem;
-   padding-top: 2em;
-   
-  
-   }
-
-    .adress-conteiner{
-      float:left;
-      justify-content: center;
-      align-items: center;
-      padding-left: 400px;
-      padding-top: 80px;
-
-      display: inline;
-      width: 400px;
-  }
-
-  .adress-conteiner h4{
-     letter-spacing: 1px;
-     padding-bottom: 5px;
-     font-size: larger;
-    
-  }
-  .adress-conteiner p {
-        padding-bottom: 5px;
-        font-size: large;
-  }
- 
-  
-    /* media queries */
-
-  /* For small screens max widh 480px and smaller */
+/* book */
 
 
-    @media screen and (max-width: 480px) {
-      #photolink {
-          padding-left: 20em;
-      }
-      #photolinkeva {
-         padding-left: 20em;
-     }
-     #conteiner {
-      height: 60em;
-     }
-     #conteiner > div {
-   
-      width: 100%;
-      clear: both;
-      height: 34%;
-      padding: 0;
-   }
-   .wrapper {
-      grid-template-columns: 1fr;
-   }
-   .where-we-are {
-      grid-template-columns: 1fr;
-   }
-   .where-we-are > div {
-      width: 100%;
-      clear: both;
-      height: 34%;
-      padding: 0;
-   }
+.form-section {
+	clear: left;
+	background-image: url("..//images/house-for-contact-form.jpg");
+	background-size: cover;
 
-   .form-section {
-      float: left;
-      clear: left
-   }
-  
-   .map-conteiner {
-      float: left;
-      clear: both;
+	background-position: center;
+	height: 700px;
+}
 
-   }
-     
-  }
 
- 
+.container-form {
+	margin: 90px 50px 0 0;
 
-   
+	color: #fff;
+
+	background-color: #3a3a3a;
+
+	height: 400px;
+	width: 500px;
+
+	float: right;
+	padding: 20px;
+}
+
+form {
+	display: grid;
+	row-gap: 20px;
+}
+
+.form-field {
+	display: flex;
+	justify-content: space-between;
+}
+
+input,
+select {
+	padding: 10px 15px;
+}
+
+.btn {
+	background-color: rgba(12, 71, 102);
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	font-size: 1.2rem;
+	border-radius: 100px;
+	box-shadow: 8px 10px 12px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: all .3s;
+}
+
+.btn:hover {
+	transform: scale(1.03);
+	box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Where we are */
+
+.where-we-are {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1em;
+	grid-auto-rows: minmax(100px, auto);
+	padding: 70px;
+
+}
+
+#headingthreemap {
+	text-align: center;
+	font-size: 2.5rem;
+	padding-top: 2em;
+
+
+}
+
+.adress-container {
+	float: left;
+	justify-content: center;
+	align-items: center;
+	padding-left: 400px;
+	padding-top: 80px;
+
+	display: inline;
+	width: 400px;
+}
+
+.adress-container h4 {
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	font-size: larger;
+
+}
+
+.adress-container p {
+	padding-bottom: 5px;
+	font-size: large;
+}
+
+
+/* media queries */
+
+/* For small screens max widh 480px and smaller */
+
+
+@media screen and (max-width: 480px) {
+	#photo-link {
+		padding-left: 20em;
+	}
+
+	#photo-link-eva {
+		padding-left: 20em;
+	}
+
+	#container {
+		height: 60em;
+	}
+
+	#container>div {
+
+		width: 100%;
+		clear: both;
+		height: 34%;
+		padding: 0;
+	}
+
+	.wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.where-we-are {
+		grid-template-columns: 1fr;
+	}
+
+	.where-we-are>div {
+		width: 100%;
+		clear: both;
+		height: 34%;
+		padding: 0;
+	}
+
+	.form-section {
+		float: left;
+		clear: left
+	}
+
+	.map-container {
+		float: left;
+		clear: both;
+
+	}
+
+}
+
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-   #menu {
-       clear: left;
-       float: left;
-       margin-left: 30px;
-       margin-bottom: 20px;
-       line-height: 35px;
-   }
-   .form-section {
-      float: left;
-      clear: left;
-   }
-   .map-conteiner {
-      float: left;
-      clear: left;
-    
-   }
-  
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line-height: 35px;
+	}
+
+	.form-section {
+		float: left;
+		clear: left;
+	}
+
+	.map-container {
+		float: left;
+		clear: left;
+
+	}
+
 }
 
 
 /* For larger screens from 1200px and down */
- /* Offer  and testimonials section should allign vertically on screens smaller then 1200px */
+/* Offer  and testimonials section should allign vertically on screens smaller then 1200px */
 
-@media screen and (max-width: 1200px)  {
-   #conteiner {
-      height: 60em;
-   }
-   #conteiner > div {
+@media screen and (max-width: 1200px) {
+	#container {
+		height: 60em;
+	}
 
-        width: 100%;
-        clear: both;
-        height: 34%;
-        padding: 0;
-   }
-   .wrapper > div {
-      width: 100%;
-      clear: both;
-      height: 100%;
-      padding: 0;
-   }
+	#container>div {
 
-.where-we-are {
-   grid-template-columns: 1fr;
+		width: 100%;
+		clear: both;
+		height: 34%;
+		padding: 0;
+	}
+
+	.wrapper>div {
+		width: 100%;
+		clear: both;
+		height: 100%;
+		padding: 0;
+	}
+
+	.where-we-are {
+		grid-template-columns: 1fr;
+	}
+
+	.where-we-are>div {
+		width: 100%;
+		clear: both;
+		height: 34%;
+		padding: 0;
+	}
+
+
 }
-.where-we-are > div {
-   width: 100%;
-   clear: both;
-   height: 34%;
-   padding: 0;
-}
-  
-  
-}  
-
-
-
-
-
-
-
