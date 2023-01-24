@@ -360,7 +360,7 @@ select {
 
 }
 
-#headingthreemap {
+#heading-map {
 	text-align: center;
 	font-size: 2.5rem;
 	padding-top: 2em;
@@ -433,6 +433,7 @@ select {
 	.map-container {
 		float: left;
 		clear: both;
+		width: auto;
 
 	}
 
