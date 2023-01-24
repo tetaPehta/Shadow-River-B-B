@@ -1,18 +1,80 @@
 
+# SHADOW RIVER FARM
+
+Link to Live project here. [Here](https://tetapehta.github.io/Shadow-River-B-B/)
+
+This is a website for Open farm and B&B in Annascaul, Co.Kerry. The website is designed to be responsive and accessible on range of devices. It allows visitors to find out more about Shadow river and the surrounding area.
+
+Below You can find a link to Am I responsive page that shows the website on different devices.
+
+! [Am I responsive.](..//Shadow-River-B-B/documentation/Am%20I%20Responsive_%20-%20Google%20Chrome%2023_01_2023%2014_02_52.png)
+
+## User Experience (UX)
+
+   ### User stories
+    
+      - #### First time visitor Goals
+         
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Accommodation and Open farm.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+     -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to book my stay.
+        2. As a Returning Visitor, I want to find out more about the Cafe on the Farm.
+        3. As a Returning Visitor, I want to see updates on the offer..
+
+## Design 
+     
+     - #### Colour Scheme
+       - Main color used is #rgba (58, 58, 58). Slate grey is main masonary color that is used on the farm Therefore the theme flows from real enviroment into the webpage.The guest easly connects the real-life color to website presenting the farm.
+
+     - #### Typography
+       - The Lora font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lora is an elegant but readble font from small to large font size, so it is both attractive and appropriate.
+
+     - #### Images
+       - Images are important to show what the guest can expect in real life when visiting Shadow river Farm.
+
+     - #### Wireframes
+       - Balsamiq is used for wireframes. Links below.
+
+
+## Features
+      - Responsive on all devices
+
+      - Ineractive elements
+
+### Languages used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libreries, Programes Used
+
+  1.  [Google Fonts:](https://fonts.google.com/)
+
+    - Google fonts were used to import the 'Lora' font into the style.css file which is used on all pages throughout the project.
+ 
+  2.  [Balsamiq:](https://balsamiq.com/)
+
+    - Balsamiq was used to create the wireframes during the design process. 
+      ! [Home-page](./documentation/Wireframe1.png)
+      ! [Gallery-page](./documentation/Wireframe2.png)
+      ! [Book-your-holiday-page](./documentation/Wireframe3.png)
+
+   3. [GitHub:](https://github.com/)
+
+    - GitHub is used to store the projects code after being pushed from Git.
+
+   4. [Font Awesome:](https://fontawesome.com/)
+
+    - Font Awesome was used on landing page on the website to add icons for aesthetic and UX purposes.
+
+   
 
 
 
-I own a farm and B&B in Annascaul, Co.Kerry. I have build a website for the business 3 years ago with a website builder and hosting provider.
-
-This time I'm building from code for the first time. I had no coding experience before this course. 
-
-I'm following and re-watching the videos in the Love Running module for creation of this project. 
-
-The content for the page comes from my current Shadow River website and Booking.com public testimonials, from our past guests.
-
-All images and videos are a realistic representation of what our guests can expect when visiting the farm. 
-
-All media used was filmed by me and Eva Veber, @Eving.Photography. More can be found on www.eva.veber.com
 
 ------
 
