@@ -139,7 +139,7 @@
 
 
 #conteiner {
-   background-image: url("../images/front-of-house.webp");
+   background-image: url("../images/house-for-contact-form.webp");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -292,7 +292,7 @@ padding-bottom: 0.6em;
 
      .form-section {
       clear: left;
-      background: url(../images/for-contact-form.jpg) ;
+      background-image: url("../images/house-for-contact-form.jpg") ;
       background-size: cover;
   
      background-position: center;
@@ -420,15 +420,8 @@ padding-bottom: 0.6em;
       padding: 0;
    }
 
-   .form-section {
-      height: 100%;
-   }
-   .container-form {
-      width: 60em;
-      clear: both;
-      
-      padding: 0;
-   }
+  
+  
      
      
   }
@@ -451,15 +444,8 @@ padding-bottom: 0.6em;
        line-height: 25px;
    }
 
-   .container-form {
-      width: 100%;
-      clear: both;
-      
-      padding: 0;
-   }
-   .form-section {
-      height: 60em;
-   }
+   
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
