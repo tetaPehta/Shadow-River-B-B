@@ -1,126 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shadow River B&B for walkers, Annascaul, Co.Kerry">
-    <meta name="keywords" content="Dingle peninsula accomodation, farmstay Annascaul, Farm B&B Dingle peninsula">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Shadow River</title>
-</head>
-<body>
-   <header>
-    <a href="index.html">
-        <h1 id="logo">Shadow River Farm</h1>
-    </a>
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="book.html">Book your holiday!</a>
-            </li>
-            <li>
-                <a href="gallery.html">Gallery</a>
-            </li>
-            <li>
-                <a href="index.html" class="active">Home</a>
-            </li>
-        </ul>
-    </nav>
-   </header>
-
-
-    <section class="form-section">
-        
-       
-        <div class="container-form">
-            <form action="confirmation.html" target="_blank" method="get">
-                <h2 class="heading heading-yellow">Reservation Online</h2>
-                <div class="form-field">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" placeholder="Full Name" required>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Shadow River B&B for walkers, Annascaul, Co.Kerry">
+        <meta name="keywords" content="Dingle peninsula accomodation, farmstay Annascaul, Farm B&B Dingle peninsula">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Shadow River</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <h1 id="logo">Shadow River Farm</h1>
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="book.html">Book your holiday!</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="form-section">
+            <div class="container-form">
+                <form action="confirmation.html" target="_blank" method="get">
+                    <h2 class="heading heading-yellow">Reservation Online</h2>
+                    <div class="form-field">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" placeholder="Your phone number" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="form-field">
+                        <label id="offer">Enquiry for:</label>
+                        <select name="people" id="people">
+                            <option value="1">Accomodation</option>
+                            <option value="2">Cafe</option>
+                            <option value="3">Open Farm</option>
+                        </select>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact" >
+            <h3 id=headingthreemap>WHERE TO FIND US:</h3>
+            <div class="where-we-are">
+                <div class="adress-container">
+                    <div>
+                        <h4>ADDRESS:</h4>
+                        <p>Ardrinane, Annascaul, Tralee, Co.Kerry
+                        </p>
+                    </div>
+                    <div>
+                        <h4>EIRCODE:</h4>
+                        <p> V92F898   </p>
+                    </div>
+                    <div>
+                        <h4>PHONE:</h4>
+                        <p>00353 87/674-5261</p>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" placeholder="Your phone number" required>
+                <div class="map-container">
+                    <div class="mapouter">
+                        <iframe src="https://maps.google.com/maps?q=Ardrinane,%20Annascaul,%20Co.Kerry&t=&z=15&ie=UTF8&iwloc=&output=embed" height=300 width=600></iframe>
+                    </div>
                 </div>
-                <div class="form-field">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" placeholder="Your email" required>
-                </div>
-                <div class="form-field">
-                    <label for="date">Date:</label>
-                    <input type="date" id="date">
-                </div>
-                <div class="form-field">
-                    <label id="offer">Enquiry for:</label>
-                    <select name="people" id="people">
-                        <option value="1">Accomodation</option>
-                        <option value="2">Cafe</option>
-                        <option value="3">Open Farm</option>
-                        
-                    </select>
-                </div>
-                <button class="btn">Submit</button>
-            </form>
-        </div>
-
-      </section>
-
-    <section id="contact" >
-        <h3 id=headingthreemap>WHERE TO FIND US:</h3>
-    <div class="where-we-are">
-        <div class="adress-container">
-              <div>
-                 <h4>ADDRESS:</h4>
-                  <p>Ardrinane, Annascaul, Tralee, Co.Kerry
-                  </p> 
-                  </div>
-                  <div> 
-                  <h4>EIRCODE:</h4>  
-                     <p> V92F898   </p>
-                </div>
-                <div>
-                    <h4>PHONE:</h4>
-                    <p>00353 87/674-5261</p>
-                </div>
-        </div>
-         
-
-        <div class="map-container"> 
-                <div class="mapouter">
-                    <iframe src="https://maps.google.com/maps?q=Ardrinane,%20Annascaul,%20Co.Kerry&t=&z=15&ie=UTF8&iwloc=&output=embed" height=300 width=600></iframe>
-                 </div>
-        </div>
-    </div>
-    </section>
-        
-     
-
-    
-
-
-
-
-   <footer>
-    <ul class="social-networks">
-       <li>
-           <a href="https://facebook.com/ShadowRiverFarm/" target="_blank" rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-       </li>
-       <li>
-           <a href="https://www.instagram.com/shadowriverfarm/" target="_blank" rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-       </li>
-       <li>
-           <a href="https://www.youtube.com/@shadowriverfarm1085" target="_blank" rel="noopener"
-            aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-       </li>
-
-    </ul>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/1a508edb97.js" crossorigin="anonymous"></script>
-</body>
+            </div>
+        </section>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com/ShadowRiverFarm/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/shadowriverfarm/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@shadowriverfarm1085" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <script src="https://kit.fontawesome.com/1a508edb97.js" crossorigin="anonymous"></script>
+    </body>
 </html>
