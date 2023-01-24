@@ -398,14 +398,6 @@ select {
 
 
 @media screen and (max-width: 480px) {
-	#photo-link {
-		padding-left: 20em;
-	}
-
-	#photo-link-eva {
-		padding-left: 20em;
-	}
-
 	#container {
 		height: 60em;
 	}
