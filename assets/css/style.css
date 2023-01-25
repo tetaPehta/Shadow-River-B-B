@@ -351,45 +351,37 @@ select {
 
 /* Where we are */
 
-.where-we-are {
+.contact {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 2fr);
 	grid-gap: 1em;
 	grid-auto-rows: minmax(100px, auto);
-	padding: 70px;
+	padding: 10em;
+	padding-left: 20em;
+	
+}
+.adress-container p {
+	font-size: 1.1rem;
+	font-weight: 300;
+	padding-bottom: 0.6em;
+	
+	
 
 }
 
+.adress-container h4 {
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	padding-bottom: 0.6em;
+	padding-top: 1em;
+	
+}
 #heading-map {
 	text-align: center;
 	font-size: 2.5rem;
 	padding-top: 2em;
-
-
 }
 
-.adress-container {
-	float: left;
-	justify-content: center;
-	align-items: center;
-	padding-left: 400px;
-	padding-top: 80px;
-
-	display: inline;
-	width: 400px;
-}
-
-.adress-container h4 {
-	letter-spacing: 1px;
-	padding-bottom: 5px;
-	font-size: larger;
-
-}
-
-.adress-container p {
-	padding-bottom: 5px;
-	font-size: large;
-}
 
 
 /* media queries */
@@ -430,13 +422,7 @@ select {
 		clear: left
 	}
 
-	.map-container {
-		float: left;
-		clear: both;
-		width: auto;
-
-	}
-
+	
 }
 
 
@@ -456,11 +442,7 @@ select {
 		clear: left;
 	}
 
-	.map-container {
-		float: left;
-		clear: left;
-
-	}
+	
 
 }
 
@@ -488,16 +470,7 @@ select {
 		padding: 0;
 	}
 
-	.where-we-are {
-		grid-template-columns: 1fr;
-	}
-
-	.where-we-are>div {
-		width: 100%;
-		clear: both;
-		height: 34%;
-		padding: 0;
-	}
+	
 
 
 }
