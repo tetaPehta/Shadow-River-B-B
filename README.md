@@ -101,21 +101,20 @@ Below You can find a link to Am I responsive page that shows the website on diff
 ### Failed code: 
 
 1. -  Media queries between 950px and 1200px do not apply correctly.
-
-   * RESULT OF FIXED CODE: Error solved by removing the padding between conteiners and not inside the card like previously tried. This resulted in correct responsive media query.
+   * FIXED CODE: Error solved by removing the padding between conteiners and not inside the card like previously tried. This resulted in correct responsive media query.
 
 2. - Gallery Images not showing in Mozzila browser.
-
-  * RESULT OF FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
+   * FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
 
 3. - Slide buttons not displaying on MAC device and on Windows for screens size 950px and down.
+   * FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After watching the Youtube tutorial one 
+     more time, I have succesfully applied the changes. 
 
-  * RESULT OF FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After watching the Youtube tutorial, I  
-    have succesfully applied the changes. 
+4. - Form Input was not applying correcty. The values of Imput were displayed incorrectly. 
+   * FIXED CODE: Changed From 'action'to form 'formdump' as advised by my mentor. Changed method from 'get' to 'POST'. Values display correctly.
 
-3. Low Lighthouse performance for mobile.
-
-  * - RESULT OF FIXED CODE: Compress all Images with Tiny Ping.com. Lighthouse score improved from 75 to 89 on Performance.
+3. - Low Lighthouse performance for mobile.
+   * FIXED CODE: Compress all Images with Tiny Ping.com. Lighthouse score improved from 75 to 89 on Performance.
   
 
 ## Credits 
@@ -127,6 +126,8 @@ Below You can find a link to Am I responsive page that shows the website on diff
  - Sample README.md from Code Institute was used as template for this document.
 
  - Gallery section was build following the tutorial: https://www.youtube.com/watch?v=McPdzhLRzCg
+
+ - Contact form was adopted from a felow student on SLACK: https://roddersnz21.github.io/project-1/
 
 ### Media
 
