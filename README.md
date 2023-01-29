@@ -75,8 +75,13 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
     - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
     
-! [W3 Markup Validator](https://validator.w3.org/) - ! [My-results](/documentation/html-markup-result.png)
-! [W3-CSS-Validator](https://validator.w3.org/#validate_by_input) - ! [My-results](/documentation/css-validator-result.png)
+ [W3 Markup Validator](https://validator.w3.org/) 
+
+![My-results](documentation/html-markup-result.png)
+
+ [W3-CSS-Validator](https://validator.w3.org/#validate_by_input) 
+
+![My-results](documentation/css-validator-result.png)
 
 ## Furder Testing
 
@@ -107,8 +112,15 @@ Below You can find a link to Am I responsive page that shows the website on diff
    * FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
 
 3. - Slide buttons not displaying on MAC device and on Windows for screens size 950px and down.
-   * FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After watching the Youtube tutorial one 
+   * FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After 
+     watching the Youtube tutorial one 
      more time, I have succesfully applied the changes. 
+     
+[missig-nav-bar-mac](documentation/screenshot-mac-crome-missing-nav-bar.png)
+
+[fixed-css](documentation/screenshot-mac-fixed-css.png)
+
+
 
 4. - Form Input was not applying correcty. The values of Imput were displayed incorrectly. 
    * FIXED CODE: Changed From 'action'to form 'formdump' as advised by my mentor. Changed method from 'get' to 'POST'. Values display correctly.
@@ -155,3 +167,6 @@ Below You can find a link to Am I responsive page that shows the website on diff
 ---
 
 
+
+
+[def]: documentation/screenshot-mac-crome-missing-nav-bar.png
