@@ -7,7 +7,7 @@ This is a website for Open farm and B&B in Annascaul, Co.Kerry. The website is d
 
 Below You can find a link to Am I responsive page that shows the website on different devices.
 
-! [Am I responsive.](..//Shadow-River-B-B/documentation/Am%20I%20Responsive_%20-%20Google%20Chrome%2023_01_2023%2014_02_52.png)
+![Am-I-responsive](documentation/am-i-responsive.png)
 
 ## User Experience (UX)
 
@@ -59,9 +59,9 @@ Below You can find a link to Am I responsive page that shows the website on diff
   2.  [Balsamiq:](https://balsamiq.com/)
 
     - Balsamiq was used to create the wireframes during the design process. 
-      ! [Home-page](/documentation/Wireframe1.png)
-      ! [Gallery-page](/documentation/Wireframe2.png)
-      ! [Book-your-holiday-page](/documentation/Wireframe3.png)
+![home](documentation/wireframe1.png)
+![gallery](documentation/wireframe2.png)
+![book](documentation/wireframe3.png)
 
    3. [GitHub:](https://github.com/)
 
