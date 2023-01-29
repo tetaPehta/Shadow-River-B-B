@@ -214,37 +214,6 @@ footer {
 /* gallery */
 
 
-/* img slide */
-/* CSS was written with the help of Youtube tutorial: https://www.youtube.com/watch?v=McPdzhLRzCg. HTML and CSS Project Tutorial: Pure CSS Image Slider */
-/*.container {
-	padding-top: 0.3em;
-	padding-bottom: 0.6em;
-
-
-}
-
-.slider-wrapper {
-	position: relative;
-	max-width: 48rem;
-	margin: 0 auto;
-}
-
-.slider {
-	display: flex;
-	aspect-ratio: 16 / 9;
-	overflow-x: auto;
-	scroll-snap-type: x mandatory;
-	scroll-behavior: smooth;
-	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-	border-radius: 0.5rem;
-}
-
-.slider img {
-	flex: 1 0 100%;
-	scroll-snap-align: start;
-	object-fit: cover;
-}
-*/
 
 .container {
 	padding: 1rem;

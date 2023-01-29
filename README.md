@@ -59,9 +59,9 @@ Below You can find a link to Am I responsive page that shows the website on diff
   2.  [Balsamiq:](https://balsamiq.com/)
 
     - Balsamiq was used to create the wireframes during the design process. 
-      ! [Home-page](./documentation/Wireframe1.png)
-      ! [Gallery-page](./documentation/Wireframe2.png)
-      ! [Book-your-holiday-page](./documentation/Wireframe3.png)
+      ! [Home-page](/documentation/Wireframe1.png)
+      ! [Gallery-page](/documentation/Wireframe2.png)
+      ! [Book-your-holiday-page](/documentation/Wireframe3.png)
 
    3. [GitHub:](https://github.com/)
 
@@ -75,8 +75,8 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
     - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
     
-! [W3 Markup Validator](https://validator.w3.org/) - ! [My-results](./documentation/html-markup-result.png)
-! [W3-CSS-Validator](https://validator.w3.org/#validate_by_input) - ! [My-results](./documentation/css-validator-result.png)
+! [W3 Markup Validator](https://validator.w3.org/) - ! [My-results](/documentation/html-markup-result.png)
+! [W3-CSS-Validator](https://validator.w3.org/#validate_by_input) - ! [My-results](/documentation/css-validator-result.png)
 
 ## Furder Testing
 
@@ -85,7 +85,7 @@ Below You can find a link to Am I responsive page that shows the website on diff
    - lighthouse was used for page performance.
    - Desktop:
 
-   ! [Lighthouse-report-for-desktop-Home](./documentation/lighthouse1.png)
+   ! [Lighthouse-report-for-desktop-Home](/documentation/lighthouse1.png)
 
    ! [Lighthouse-report-for-desktop-Gallery](./documentation/lighthouse2.png)
 
@@ -107,6 +107,11 @@ Below You can find a link to Am I responsive page that shows the website on diff
 2. - Gallery Images not showing in Mozzila browser.
 
   * RESULT OF FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
+
+3. - Slide buttons not displaying on MAC device and on Windows for screens size 950px and down.
+
+  * RESULT OF FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After watching the Youtube tutorial, I  
+    have succesfully applied the changes. 
 
 3. Low Lighthouse performance for mobile.
 
