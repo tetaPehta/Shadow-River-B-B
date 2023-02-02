@@ -69,7 +69,7 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
    4. [Font Awesome:](https://fontawesome.com/)
 
-    - Font Awesome was used on landing page on the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on landing & gallery page of the website to add icons for aesthetic and UX purposes.
 
 ## Testing
 
@@ -87,45 +87,65 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
    - The website was tested on Google Crome and Mozzila browser.
    - The website was viewd on wariety of devices.
-   - lighthouse was used for page performance.
+   - Lighthouse was used for page performance.
    - Desktop:
 
-   ! [Lighthouse-report-for-desktop-Home](/documentation/lighthouse1.png)
+![Lighthouse-desktop](documentation/lighthouse-desktop-home.png)
 
-   ! [Lighthouse-report-for-desktop-Gallery](./documentation/lighthouse2.png)
+![Lighthouse-desktop-gallery](documentation/lighthouse-desktop-gallery.png)
 
-   ! [Lighthouse-report-for-desktop-Book](./documentation/lighthouse3.png)
+![lighthouse-desktop-contact](documentation/lighthouse-desktop-contact.png)
     
    - Mobile:
 
-   ! [Lighthouse-report-for-mobile-Home](./documentation/lighthouse-mobile-home.png)
+![Lighthouse-mobile](documentation/lighthouse-desktop-home.png)
 
-   ! [Lighthouse-report-for-mobile-Book](./documentation/lighthouse-%20mobile-after-1st-fix-media-queries..png)
+![Lighthouse-mobile-gallery](documentation/lighrhouse-mobile-gallery.png)
+
+![Lighthouse-mobile-contact](documentation/lighthouse-mobile-contact.png)
+
+   - Applied fix to Contact media queries:
+
+![Lighthouse-mobile-contact-fix](documentation/lighthouse-%20mobile-after-1st-fix-media-queries..png)
 
 
 ### Failed code: 
 
 1. -  Media queries between 950px and 1200px do not apply correctly.
-   * FIXED CODE: Error solved by removing the padding between conteiners and not inside the card like previously tried. This resulted in correct responsive media query.
+
+       FIXED CODE: Error solved by removing the padding between conteiners and not inside the card like previously tried. This resulted in correct responsive media query.
 
 2. - Gallery Images not showing in Mozzila browser.
-   * FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
 
-3. - Slide buttons not displaying on MAC device and on Windows for screens size 950px and down.
-   * FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After 
-     watching the Youtube tutorial one 
-     more time, I have succesfully applied the changes. 
+       FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
+
+3. - Slide buttons not displaying on MAC device and on Crome and Firefox browser. For screens size 950px and down.
+
+       FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After 
+       watching the Youtube tutorial one more time, I have succesfully applied the changes. 
+
+  - MAC CROME:
      
-[missig-nav-bar-mac](documentation/screenshot-mac-crome-missing-nav-bar.png)
+![Missing-nav-bar-on-MAC-Crome](documentation/screenshot-mac-crome-missing-nav-bar.png)
 
-[fixed-css](documentation/screenshot-mac-fixed-css.png)
+  - MAC FIREFOX:
+
+![Missing-nav-bar-on-MAC-firefox](documentation/Screenshot-mac-firefox-missing-nav-bar.png)
+
+  - Fixed CSS:
+
+![Missing-nav-bar-fix-CSS](documentation/screenshot-mac-fixed-css.png)
+
+
 
 
 
 4. - Form Input was not applying correcty. The values of Imput were displayed incorrectly. 
+
    * FIXED CODE: Changed From 'action'to form 'formdump' as advised by my mentor. Changed method from 'get' to 'POST'. Values display correctly.
 
 3. - Low Lighthouse performance for mobile.
+
    * FIXED CODE: Compress all Images with Tiny Ping.com. Lighthouse score improved from 75 to 89 on Performance.
   
 
@@ -147,9 +167,9 @@ Below You can find a link to Am I responsive page that shows the website on diff
 - Images for -WINDOW INTO DINGLE PENINSULA- were created vy Florian Walsh.
 - Images for -TAKE YOUR MEMORIES HOME- were created by Eva veber.
 
-### External Links#
+### External Links
 
-- Social media icons link to working Social media accounts of Shadow River Farm
+- Social media icons link to Social media accounts of Shadow River Farm.
 - Links to external websites in Gallery link to Photographers personal websites.
 
 ### Aknowlegments 
