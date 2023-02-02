@@ -73,13 +73,21 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
 ## Testing
 
-    - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - The W3C Markup Validator and W3C CSS Validator were used. Every page was inspected to ensure there were no syntax errors in the project.
     
  [W3 Markup Validator](https://validator.w3.org/) 
 
 ![My-results](documentation/html-markup-result.png)
 
+    - My CSS was showing numerous errors. 
+
  [W3-CSS-Validator](https://validator.w3.org/#validate_by_input) 
+
+![CSS-error-one](documentation/css-error1.png)
+![CSS-erroe-two](documentation/css-error3.png)
+![CSS-error-three](documentation/css-error4.png)
+
+    - I have succesfuly applied all the suggested corrections.
 
 ![My-results](documentation/css-validator-result.png)
 
@@ -113,13 +121,13 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
 1. -  Media queries between 950px and 1200px do not apply correctly.
 
-       FIXED CODE: Error solved by removing the padding between conteiners and not inside the card like previously tried. This resulted in correct responsive media query.
+       FIXED CODE: Error solved by removing the padding between conteiners and not inside like previously tried. This resulted in correct responsive media query.
 
 2. - Gallery Images not showing in Mozzila browser.
 
        FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
 
-3. - Slide buttons not displaying on MAC device and on Crome and Firefox browser. For screens size 950px and down.
+3. - Slide buttons not displaying on MAC device; Crome and Firefox browser. Screens max size 950px and down.
 
        FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After 
        watching the Youtube tutorial one more time, I have succesfully applied the changes. 
@@ -177,6 +185,8 @@ Below You can find a link to Am I responsive page that shows the website on diff
 -   My Mentor Brian Macharia for continuous help and insightfull feedback of my work on mentor sessions.
 
 -   Tutors at tutor support at Code Institute for their support.
+
+-   Peer support on Slack and Stand Up meetings with Irene.
 
 
 
