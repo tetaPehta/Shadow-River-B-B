@@ -103,6 +103,11 @@ Image of "Am I Responsive?" page shows the website on different devices.
 
    - Google Chrome and Mozilla browsers were used to test the website.
    - The website was viewed on a variety of devices.
+   - The table details the tests taken on live website:
+
+![test-table](documentation/test-table.png)
+
+
    - Lighthouse was used for page performance.
    - Desktop:
 
