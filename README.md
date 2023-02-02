@@ -3,7 +3,9 @@
 
 Here's a link to the Live project. [Here](https://tetapehta.github.io/Shadow-River-B-B/)
 
-This is a website for an open farm and B&B in Annascaul, Co.Kerry. The website is designed to be responsive and accessible on a range of devices. It allows visitors to find out more about Shadow River and the surrounding area.
+This is a website for an open farm and B&B in Annascaul, Co.Kerry.
+The website is designed to be responsive and accessible on a range of devices. 
+It allows visitors to find out more about Shadow River and the surrounding area.
 
 Image of "Am I Responsive?" page shows the website on different devices.
 
@@ -15,9 +17,11 @@ Image of "Am I Responsive?" page shows the website on different devices.
     
       - Objectives for First-Time Visitors
          
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Accommodation and Open farm.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site. 
+           Learn more about the Accommodation and Open farm.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their visitors think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their visitors think of them.
+           I want to locate their social media links to determine how trusted and known they are.
 
      -  Returning Visitor Objectives
 
@@ -28,10 +32,13 @@ Image of "Am I Responsive?" page shows the website on different devices.
 ## Design 
      
      - Colour Scheme
-       - Thw primary color is #rgba (58, 58, 58). Slate gray is main color used on the farm; therefore the theme flows from the real environment into the webpage. The guest easily connects the real-life color to the website presenting the farm.
+       - The primary color is #rgba (58, 58, 58). Slate gray is main color used on the farm; 
+         therefore the theme flows from the real environment into the webpage. 
+         The guest easily connects the real-life color to the website presenting the farm.
 
      - Typography
-       - The Lora font is the primary font used throughout the website, with Sans Serif serving as a fallback font in the event that the font is not correctly imported into the site.Lora is an elegant but readable font that ranges in size from small to large, so it is both attractive and appropriate.
+       - The Lora font is the primary font used throughout the website, with Sans Serif serving as a fallback font.
+         Lora is an elegant but readable font that ranges in size from small to large, so it is both attractive and appropriate.
 
      - Images
        - Images are important to show what the guest can expect in real life when visiting Shadow River Farm.
@@ -54,7 +61,7 @@ Image of "Am I Responsive?" page shows the website on different devices.
 
    [Google Fonts:](https://fonts.google.com/)
 
-    - Google Fonts were used to import the 'Lora' font into the style.css file, which is used on all pages throughout the project.
+    - Google Fonts were used to import the 'Lora' font into the style.css file.
  
    [Balsamiq:](https://balsamiq.com/)
 
@@ -73,7 +80,8 @@ Image of "Am I Responsive?" page shows the website on different devices.
 
 ## Testing
 
-    - The W3C Markup Validator and W3C CSS Validator were used. Every page was inspected to ensure there were no syntax errors in the project.
+    - The W3C Markup Validator and W3C CSS Validator were used. 
+      Every page was inspected to ensure there were no syntax errors in the project.
     
  [W3 Markup Validator](https://validator.w3.org/) 
 
@@ -121,7 +129,8 @@ Image of "Am I Responsive?" page shows the website on different devices.
 
 1. -  Media queries between 950 px and 1200 px do not apply correctly.
 
-       FIXED CODE: Error fixed by removing padding between characters rather than inside as previously attempted. This resulted in the correct responsive media query.
+       FIXED CODE: Error fixed by removing padding between characters rather than inside as previously attempted.
+       This resulted in the correct responsive media query.
 
 2. - Gallery images not showing in the Mozzila browser.
 
@@ -148,15 +157,17 @@ Image of "Am I Responsive?" page shows the website on different devices.
 
 
 
-4. - Form input was not applied correctly. The values of Imput were displayed incorrectly. 
+4. - Form input was not applied correctly. The values of Imput were displayed incorrectly:
 
-     FIXED CODE: Modified from "action" to "form dump," as advised by my mentor.changed the method from "get" to "post." Values display correctly. 
+     FIXED CODE: Modified from "action" to "form dump," as advised by my mentor.changed the method from "get" to "post."
+     Values display correctly. 
 
-3. - Low Lighthouse performance for mobile.
+3. - Low Lighthouse performance for mobile:
 
-     FIXED CODE: Compress all images with TinyPing.com. Lighthouse performance improved from 75 to 89.
+     FIXED CODE: Compress all images with TinyPing.com.
+     Lighthouse performance improved from 75 to 89.
 
-4. - Overflow of the Contact form.
+4. - Overflow of the Contact form:
 
      I did not resolve the overflow problem of Contact form, for screens maxwidth 600 px.
   
