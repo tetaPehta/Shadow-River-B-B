@@ -1,11 +1,11 @@
 
 # SHADOW RIVER FARM
 
-Link to Live project here. [Here](https://tetapehta.github.io/Shadow-River-B-B/)
+Here's a link to the Live project. [Here](https://tetapehta.github.io/Shadow-River-B-B/)
 
-This is a website for Open farm and B&B in Annascaul, Co.Kerry. The website is designed to be responsive and accessible on range of devices. It allows visitors to find out more about Shadow river and the surrounding area.
+This is a website for an open farm and B&B in Annascaul, Co.Kerry. The website is designed to be responsive and accessible on a range of devices. It allows visitors to find out more about Shadow River and the surrounding area.
 
-Below You can find a link to Am I responsive page that shows the website on different devices.
+Below, you can find a link to he "Am I Responsive?" page that shows the website on different devices.
 
 ![Am-I-responsive](documentation/am-i-responsive.png)
 
@@ -13,13 +13,13 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
    ### User stories
     
-      - #### First time visitor Goals
+      - #### Objectives for First-Time Visitors
          
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Accommodation and Open farm.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-     -   #### Returning Visitor Goals
+     -   #### Returning Visitor Objectives
 
         1. As a Returning Visitor, I want to book my stay.
         2. As a Returning Visitor, I want to find out more about the Cafe on the Farm.
@@ -28,13 +28,13 @@ Below You can find a link to Am I responsive page that shows the website on diff
 ## Design 
      
      - #### Colour Scheme
-       - Main color used is #rgba (58, 58, 58). Slate grey is main masonary color that is used on the farm Therefore the theme flows from real enviroment into the webpage.The guest easly connects the real-life color to website presenting the farm.
+       - Thw primary color is #rgba (58, 58, 58). Slate gray is main color used on the farm; therefore the theme flows from the real environment into the webpage. The guest easily connects the real-life color to the website presenting the farm.
 
      - #### Typography
-       - The Lora font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lora is an elegant but readble font from small to large font size, so it is both attractive and appropriate.
+       - The Lora font is the primary font used throughout the website, with Sans Serif serving as a fallback font in the event that the font is not correctly imported into the site.Lora is an elegant but readable font that ranges in size from small to large, so it is both attractive and appropriate.
 
      - #### Images
-       - Images are important to show what the guest can expect in real life when visiting Shadow river Farm.
+       - Images are important to show what the guest can expect in real life when visiting Shadow River Farm.
 
      - #### Wireframes
        - Balsamiq is used for wireframes. Links below.
@@ -50,11 +50,11 @@ Below You can find a link to Am I responsive page that shows the website on diff
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libreries, Programes Used
+### Frameworks, Libraries and programs used
 
   1.  [Google Fonts:](https://fonts.google.com/)
 
-    - Google fonts were used to import the 'Lora' font into the style.css file which is used on all pages throughout the project.
+    - Google Fonts were used to import the 'Lora' font into the style.css file, which is used on all pages throughout the project.
  
   2.  [Balsamiq:](https://balsamiq.com/)
 
@@ -65,7 +65,7 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
    3. [GitHub:](https://github.com/)
 
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the project's code after it is pushed from Git.
 
    4. [Font Awesome:](https://fontawesome.com/)
 
@@ -87,14 +87,14 @@ Below You can find a link to Am I responsive page that shows the website on diff
 ![CSS-erroe-two](documentation/css-error3.png)
 ![CSS-error-three](documentation/css-error4.png)
 
-    - I have succesfuly applied all the suggested corrections.
+    - I have successfully applied all the suggested corrections.
 
 ![My-results](documentation/css-validator-result.png)
 
 ## Furder Testing
 
-   - The website was tested on Google Crome and Mozzila browser.
-   - The website was viewd on wariety of devices.
+   - Google Chrome and Mozilla browsers were used to test the website.
+   - The website was viewed on a variety of devices.
    - Lighthouse was used for page performance.
    - Desktop:
 
@@ -112,35 +112,35 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
 ![Lighthouse-mobile-contact](documentation/lighthouse-mobile-contact.png)
 
-   - Applied fix to Contact media queries:
+   - Resolved contact media queries:
 
 ![Lighthouse-mobile-contact-fix](documentation/lighthouse-%20mobile-after-1st-fix-media-queries..png)
 
 
 ### Failed code: 
 
-1. -  Media queries between 950px and 1200px do not apply correctly.
+1. -  Media queries between 950 px and 1200 px do not apply correctly.
 
-       FIXED CODE: Error solved by removing the padding between conteiners and not inside like previously tried. This resulted in correct responsive media query.
+       FIXED CODE: Error fixed by removing padding between characters rather than inside as previously attempted. This resulted in the correct responsive media query.
 
-2. - Gallery Images not showing in Mozzila browser.
+2. - Gallery images not showing in the Mozzila browser.
 
        FIXED CODE: Error solved by transforming JPG format too WEBP format. Gallery displays correctly.
 
 3. - Slide buttons not displaying on MAC device; Crome and Firefox browser. Screens max size 950px and down.
 
-       FIXED CODE: Upon inspection of my commits, I have noticed that I have deleted CSS code that targeted Slider navigation. After 
-       watching the Youtube tutorial one more time, I have succesfully applied the changes. 
+       FIXED CODE: Upon reviewing my commits, I discovered that I had removed CSS code that targeted Slider navigation.After
+       After watching the YouTube tutorial one more time, I have successfully applied the changes.
 
-  - MAC CROME:
+  - Crome for Mac:
      
 ![Missing-nav-bar-on-MAC-Crome](documentation/screenshot-mac-crome-missing-nav-bar.png)
 
-  - MAC FIREFOX:
+  - Firefox for Mac:
 
 ![Missing-nav-bar-on-MAC-firefox](documentation/Screenshot-mac-firefox-missing-nav-bar.png)
 
-  - Fixed CSS:
+  - CSS Update:
 
 ![Missing-nav-bar-fix-CSS](documentation/screenshot-mac-fixed-css.png)
 
@@ -148,45 +148,45 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
 
 
-4. - Form Input was not applying correcty. The values of Imput were displayed incorrectly. 
+4. - Form input was not applied correctly. The values of Imput were displayed incorrectly. 
 
-   * FIXED CODE: Changed From 'action'to form 'formdump' as advised by my mentor. Changed method from 'get' to 'POST'. Values display correctly.
+   * FIXED CODE: Modified from "action" to "form dump," as advised by my mentor.changed the method from "get" to "post." Values display correctly. 
 
 3. - Low Lighthouse performance for mobile.
 
-   * FIXED CODE: Compress all Images with Tiny Ping.com. Lighthouse score improved from 75 to 89 on Performance.
+   * FIXED CODE: Compress all images with TinyPing.com. Lighthouse performance improved from 75 to 89.
   
 
 ## Credits 
 
 ### Code 
 
- - All content written by developer.
+ - Developer created the content.
 
- - Sample README.md from Code Institute was used as template for this document.
+ - A sample README.md from the Code Institute was used as a template for this document.
 
  - Gallery section was build following the tutorial: https://www.youtube.com/watch?v=McPdzhLRzCg
 
- - Contact form was adopted from a felow student on SLACK: https://roddersnz21.github.io/project-1/
+ - The contact form was borrowed from a felow SLACK student: https://roddersnz21.github.io/project-1/
 
 ### Media
 
-- Images used on Home and Book page were created by Eva Veber for developer.
-- Images for -WINDOW INTO DINGLE PENINSULA- were created vy Florian Walsh.
-- Images for -TAKE YOUR MEMORIES HOME- were created by Eva veber.
+- Images used on Home and Book pages were created by Eva Veber for this website..
+- Images for "WINDOW INTO DINGLE PENINSULA" were created by Florian Walsh.
+- Images for "TAKE YOUR MEMORIES HOME" were created by Eva Veber.
 
 ### External Links
 
-- Social media icons link to Social media accounts of Shadow River Farm.
-- Links to external websites in Gallery link to Photographers personal websites.
+- Social media icons link to the social media accounts of Shadow River Farm.
+- Links to external websites in the gallery link to the photographers' personal websites.
 
 ### Aknowlegments 
 
--   My Mentor Brian Macharia for continuous help and insightfull feedback of my work on mentor sessions.
+-   My mentor, Brian Macharia, for continuous help and insightful feedback on my work during mentor sessions.
 
--   Tutors at tutor support at Code Institute for their support.
+-   Tutor support at Code Institute.
 
--   Peer support on Slack and Stand Up meetings with Irene.
+-   Peer support on Slack, stand up meetings with Irene.
 
 
 
@@ -199,4 +199,3 @@ Below You can find a link to Am I responsive page that shows the website on diff
 
 
 
-[def]: documentation/screenshot-mac-crome-missing-nav-bar.png
