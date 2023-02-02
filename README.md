@@ -5,7 +5,7 @@ Here's a link to the Live project. [Here](https://tetapehta.github.io/Shadow-Riv
 
 This is a website for an open farm and B&B in Annascaul, Co.Kerry. The website is designed to be responsive and accessible on a range of devices. It allows visitors to find out more about Shadow River and the surrounding area.
 
-Below, you can find a link to he "Am I Responsive?" page that shows the website on different devices.
+Image of "Am I Responsive?" page shows the website on different devices.
 
 ![Am-I-responsive](documentation/am-i-responsive.png)
 
@@ -13,13 +13,13 @@ Below, you can find a link to he "Am I Responsive?" page that shows the website 
 
    ### User stories
     
-      - #### Objectives for First-Time Visitors
+      - Objectives for First-Time Visitors
          
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Accommodation and Open farm.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their visitors think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-     -   #### Returning Visitor Objectives
+     -  Returning Visitor Objectives
 
         1. As a Returning Visitor, I want to book my stay.
         2. As a Returning Visitor, I want to find out more about the Cafe on the Farm.
@@ -27,16 +27,16 @@ Below, you can find a link to he "Am I Responsive?" page that shows the website 
 
 ## Design 
      
-     - #### Colour Scheme
+     - Colour Scheme
        - Thw primary color is #rgba (58, 58, 58). Slate gray is main color used on the farm; therefore the theme flows from the real environment into the webpage. The guest easily connects the real-life color to the website presenting the farm.
 
-     - #### Typography
+     - Typography
        - The Lora font is the primary font used throughout the website, with Sans Serif serving as a fallback font in the event that the font is not correctly imported into the site.Lora is an elegant but readable font that ranges in size from small to large, so it is both attractive and appropriate.
 
-     - #### Images
+     - Images
        - Images are important to show what the guest can expect in real life when visiting Shadow River Farm.
 
-     - #### Wireframes
+     - Wireframes
        - Balsamiq is used for wireframes. Links below.
 
 
@@ -52,22 +52,22 @@ Below, you can find a link to he "Am I Responsive?" page that shows the website 
 
 ### Frameworks, Libraries and programs used
 
-  1.  [Google Fonts:](https://fonts.google.com/)
+   [Google Fonts:](https://fonts.google.com/)
 
     - Google Fonts were used to import the 'Lora' font into the style.css file, which is used on all pages throughout the project.
  
-  2.  [Balsamiq:](https://balsamiq.com/)
+   [Balsamiq:](https://balsamiq.com/)
 
     - Balsamiq was used to create the wireframes during the design process. 
 ![home](documentation/wireframe1.png)
 ![gallery](documentation/wireframe2.png)
 ![book](documentation/wireframe3.png)
 
-   3. [GitHub:](https://github.com/)
+ [GitHub:](https://github.com/)
 
     - GitHub is used to store the project's code after it is pushed from Git.
 
-   4. [Font Awesome:](https://fontawesome.com/)
+ [Font Awesome:](https://fontawesome.com/)
 
     - Font Awesome was used on landing & gallery page of the website to add icons for aesthetic and UX purposes.
 
@@ -112,7 +112,7 @@ Below, you can find a link to he "Am I Responsive?" page that shows the website 
 
 ![Lighthouse-mobile-contact](documentation/lighthouse-mobile-contact.png)
 
-   - Resolved contact media queries:
+   - Resolved media queries:
 
 ![Lighthouse-mobile-contact-fix](documentation/lighthouse-%20mobile-after-1st-fix-media-queries..png)
 
@@ -150,11 +150,15 @@ Below, you can find a link to he "Am I Responsive?" page that shows the website 
 
 4. - Form input was not applied correctly. The values of Imput were displayed incorrectly. 
 
-   * FIXED CODE: Modified from "action" to "form dump," as advised by my mentor.changed the method from "get" to "post." Values display correctly. 
+     FIXED CODE: Modified from "action" to "form dump," as advised by my mentor.changed the method from "get" to "post." Values display correctly. 
 
 3. - Low Lighthouse performance for mobile.
 
-   * FIXED CODE: Compress all images with TinyPing.com. Lighthouse performance improved from 75 to 89.
+     FIXED CODE: Compress all images with TinyPing.com. Lighthouse performance improved from 75 to 89.
+
+4. - Overflow of the Contact form.
+
+     I did not resolve the overflow problem of Contact form, for small screens.
   
 
 ## Credits 
@@ -168,6 +172,8 @@ Below, you can find a link to he "Am I Responsive?" page that shows the website 
  - Gallery section was build following the tutorial: https://www.youtube.com/watch?v=McPdzhLRzCg
 
  - The contact form was borrowed from a felow SLACK student: https://roddersnz21.github.io/project-1/
+
+ - Spellchecker was used for CSS and HTML. QuillBot was used for README.
 
 ### Media
 
