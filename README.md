@@ -158,7 +158,7 @@ Image of "Am I Responsive?" page shows the website on different devices.
 
 4. - Overflow of the Contact form.
 
-     I did not resolve the overflow problem of Contact form, for small screens.
+     I did not resolve the overflow problem of Contact form, for screens maxwidth 600 px.
   
 
 ## Credits 
